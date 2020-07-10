@@ -1,0 +1,1462 @@
+[I 200423 11:55:40 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 11:55:40 base:881] Added job "tax_free" to job store "default"
+[I 200423 11:55:40 base:881] Added job "vat" to job store "default"
+[I 200423 11:55:40 base:881] Added job "bank_branch" to job store "default"
+[I 200423 11:55:40 base:881] Added job "security_branch" to job store "default"
+[I 200423 11:55:40 base:881] Added job "copyright" to job store "default"
+[I 200423 11:55:40 base:881] Added job "innovate" to job store "default"
+[I 200423 11:55:40 base:881] Added job "main_channel" to job store "default"
+[I 200423 11:55:40 base:881] Added job "main_production" to job store "default"
+[I 200423 11:55:40 base:881] Added job "market_hold" to job store "default"
+[I 200423 11:55:40 base:881] Added job "market_scale" to job store "default"
+[I 200423 11:55:40 base:881] Added job "property_scale" to job store "default"
+[I 200423 11:55:40 base:881] Added job "rank" to job store "default"
+[I 200423 11:55:40 base:881] Added job "sale_mode" to job store "default"
+[I 200423 11:55:40 base:881] Added job "trust" to job store "default"
+[I 200423 11:55:40 base:881] Added job "user_count" to job store "default"
+[I 200423 11:55:40 base:881] Added job "engineering" to job store "default"
+[I 200423 11:55:40 base:881] Added job "insurance" to job store "default"
+[I 200423 11:55:40 base:881] Added job "media" to job store "default"
+[I 200423 11:55:40 base:881] Added job "real_property" to job store "default"
+[I 200423 11:55:40 base:881] Added job "user_foundation" to job store "default"
+[I 200423 11:55:40 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 11:55:40 base:881] Added job "market_rank" to job store "default"
+[I 200423 11:55:40 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 11:55:40 base:881] Added job "industry_position" to job store "default"
+[I 200423 11:55:40 base:881] Added job "industry_layout" to job store "default"
+[I 200423 11:55:40 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 11:55:40 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 11:55:40 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 11:55:40 base:881] Added job "technique_trend" to job store "default"
+[I 200423 11:55:40 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 11:55:40 base:881] Added job "capacity" to job store "default"
+[I 200423 11:55:40 base:881] Added job "rd_plan" to job store "default"
+[I 200423 11:55:40 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 11:55:40 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 11:55:40 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 11:55:40 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 11:55:40 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 11:55:40 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 11:55:40 base:881] Added job "business_reputation" to job store "default"
+[I 200423 11:55:40 base:881] Added job "sales_network" to job store "default"
+[I 200423 11:55:40 base:881] Added job "industry_status" to job store "default"
+[I 200423 11:55:40 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 11:55:40 base:881] Added job "patent" to job store "default"
+[I 200423 11:55:40 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 11:55:40 base:881] Added job "product_function" to job store "default"
+[I 200423 11:55:40 base:166] Scheduler started
+[D 200423 11:55:40 base:940] Looking for jobs to run
+[I 200423 11:55:40 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 11:55:40 base:1020] Next wakeup is due at 2020-04-23 11:56:10+08:00 (in 29.358207 seconds)
+[D 200423 11:56:10 base:940] Looking for jobs to run
+[I 200423 11:56:10 base:123] Running job "sales_network (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='56', second='10'], next run at: 2020-04-23 11:56:10 CST)" (scheduled at 2020-04-23 11:56:10+08:00)
+[D 200423 11:56:10 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 8419.998527 seconds)
+[I 200423 11:56:10 utils:19] 开始查询数据
+[I 200423 11:56:10 get_data:49] dev
+[I 200423 11:56:10 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 11:56:10 get_data:51] test_yyh
+[I 200423 11:56:19 utils:37] download cost time: 0:00:09.166525
+[I 200423 11:56:19 utils:52] get annual report count: 10
+[I 200423 11:56:19 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:20 utils:68] 摘要 or 已取消, continue
+[I 200423 11:56:20 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:20 utils:68] 摘要 or 已取消, continue
+[I 200423 11:56:22 utils:37] download cost time: 0:00:01.476085
+[I 200423 11:56:22 utils:52] get annual report count: 10
+[I 200423 11:56:22 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:22 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:24 utils:37] download cost time: 0:00:01.670095
+[I 200423 11:56:24 utils:52] get annual report count: 10
+[I 200423 11:56:25 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:25 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:25 utils:79] cannot get induhc2: sz200706
+[I 200423 11:56:27 utils:37] download cost time: 0:00:01.670095
+[I 200423 11:56:27 utils:52] get annual report count: 10
+[I 200423 11:56:28 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:28 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:29 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:29 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:31 utils:37] download cost time: 0:00:01.713098
+[I 200423 11:56:31 utils:52] get annual report count: 10
+[I 200423 11:56:31 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:32 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:32 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:34 utils:37] download cost time: 0:00:01.699097
+[I 200423 11:56:34 utils:52] get annual report count: 10
+[I 200423 11:56:37 utils:37] download cost time: 0:00:01.869107
+[I 200423 11:56:37 utils:52] get annual report count: 10
+[I 200423 11:56:37 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:37 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:38 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:38 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:38 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:42 utils:37] download cost time: 0:00:03.553203
+[I 200423 11:56:42 utils:52] get annual report count: 10
+[I 200423 11:56:42 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:43 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:43 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:43 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:45 utils:37] download cost time: 0:00:01.727099
+[I 200423 11:56:45 utils:52] get annual report count: 10
+[I 200423 11:56:45 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:46 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:48 utils:37] download cost time: 0:00:01.629093
+[I 200423 11:56:48 utils:52] get annual report count: 10
+[I 200423 11:56:48 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:49 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:51 utils:37] download cost time: 0:00:01.812103
+[I 200423 11:56:51 utils:52] get annual report count: 10
+[I 200423 11:56:51 utils:79] cannot get induhc2: sh600680
+[I 200423 11:56:52 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:52 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:53 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:53 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:55 utils:37] download cost time: 0:00:01.577090
+[I 200423 11:56:55 utils:52] get annual report count: 10
+[I 200423 11:56:55 utils:106] save text true 1, save candidate code 0
+[I 200423 11:56:55 utils:106] save text true 1, save candidate code 0
+[I 200423 11:57:13 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 11:57:13 base:881] Added job "tax_free" to job store "default"
+[I 200423 11:57:13 base:881] Added job "vat" to job store "default"
+[I 200423 11:57:13 base:881] Added job "bank_branch" to job store "default"
+[I 200423 11:57:13 base:881] Added job "security_branch" to job store "default"
+[I 200423 11:57:13 base:881] Added job "copyright" to job store "default"
+[I 200423 11:57:13 base:881] Added job "innovate" to job store "default"
+[I 200423 11:57:13 base:881] Added job "main_channel" to job store "default"
+[I 200423 11:57:13 base:881] Added job "main_production" to job store "default"
+[I 200423 11:57:13 base:881] Added job "market_hold" to job store "default"
+[I 200423 11:57:13 base:881] Added job "market_scale" to job store "default"
+[I 200423 11:57:13 base:881] Added job "property_scale" to job store "default"
+[I 200423 11:57:13 base:881] Added job "rank" to job store "default"
+[I 200423 11:57:13 base:881] Added job "sale_mode" to job store "default"
+[I 200423 11:57:13 base:881] Added job "trust" to job store "default"
+[I 200423 11:57:13 base:881] Added job "user_count" to job store "default"
+[I 200423 11:57:13 base:881] Added job "engineering" to job store "default"
+[I 200423 11:57:13 base:881] Added job "insurance" to job store "default"
+[I 200423 11:57:13 base:881] Added job "media" to job store "default"
+[I 200423 11:57:13 base:881] Added job "real_property" to job store "default"
+[I 200423 11:57:13 base:881] Added job "user_foundation" to job store "default"
+[I 200423 11:57:13 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 11:57:13 base:881] Added job "market_rank" to job store "default"
+[I 200423 11:57:13 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 11:57:13 base:881] Added job "industry_position" to job store "default"
+[I 200423 11:57:13 base:881] Added job "industry_layout" to job store "default"
+[I 200423 11:57:13 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 11:57:13 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 11:57:13 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 11:57:13 base:881] Added job "technique_trend" to job store "default"
+[I 200423 11:57:13 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 11:57:13 base:881] Added job "capacity" to job store "default"
+[I 200423 11:57:13 base:881] Added job "rd_plan" to job store "default"
+[I 200423 11:57:13 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 11:57:13 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 11:57:13 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 11:57:13 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 11:57:13 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 11:57:13 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 11:57:13 base:881] Added job "business_reputation" to job store "default"
+[I 200423 11:57:13 base:881] Added job "sales_network" to job store "default"
+[I 200423 11:57:13 base:881] Added job "industry_status" to job store "default"
+[I 200423 11:57:13 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 11:57:13 base:881] Added job "patent" to job store "default"
+[I 200423 11:57:13 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 11:57:13 base:881] Added job "product_function" to job store "default"
+[I 200423 11:57:13 base:166] Scheduler started
+[D 200423 11:57:13 base:940] Looking for jobs to run
+[D 200423 11:57:13 base:1020] Next wakeup is due at 2020-04-23 11:58:00+08:00 (in 46.883917 seconds)
+[I 200423 11:57:13 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 11:58:00 base:940] Looking for jobs to run
+[I 200423 11:58:00 base:123] Running job "industry_status (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='58', second='0'], next run at: 2020-04-23 11:58:00 CST)" (scheduled at 2020-04-23 11:58:00+08:00)
+[D 200423 11:58:00 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 8309.993235 seconds)
+[I 200423 11:58:00 utils:19] 开始查询数据
+[I 200423 11:58:00 get_data:49] dev
+[I 200423 11:58:00 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 11:58:00 get_data:51] test_yyh
+[I 200423 11:58:02 utils:37] download cost time: 0:00:02.397137
+[I 200423 11:58:02 utils:52] get annual report count: 10
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 extract_industry_status:35] 0
+[I 200423 11:58:02 extract_industry_status:36] []
+[I 200423 11:58:02 utils:68] 摘要 or 已取消, continue
+[I 200423 11:58:03 extract_industry_status:35] 0
+[I 200423 11:58:03 extract_industry_status:36] []
+[I 200423 11:58:03 utils:68] 摘要 or 已取消, continue
+[I 200423 11:58:03 extract_industry_status:35] 0
+[I 200423 11:58:03 extract_industry_status:36] []
+[I 200423 11:58:04 utils:37] download cost time: 0:00:01.327076
+[I 200423 11:58:04 utils:52] get annual report count: 10
+[I 200423 11:58:04 extract_industry_status:35] 0
+[I 200423 11:58:04 extract_industry_status:36] []
+[I 200423 11:58:04 extract_industry_status:35] 0
+[I 200423 11:58:04 extract_industry_status:36] []
+[I 200423 11:58:04 extract_industry_status:35] 0
+[I 200423 11:58:04 extract_industry_status:36] []
+[I 200423 11:58:04 extract_industry_status:35] 6
+[I 200423 11:58:04 extract_industry_status:36] ['1、数字电视产业', '数字电视行业继数字化、高清化之后，大数据、云计算、超高清视频、人工智能逐步成熟，“内容全媒体化融合、网络泛在化传播、视听超高清化呈现、应用智能化服务、产业生态化演进”已成为行业发展的新趋势。随着广电机构改革的持续深入，其政治属性、文化属性、公益属性进一步凸显，加之“全国一张网”整合步伐进一步加快，网络双向化、宽带化、智能化升级改造和互联互通平台建设进入快车道，有线电视网络与5G等新技术、新业态的融合式发展，将推动形成有线、无线、卫星、移动一体化传输的新格局、“视频+语音+宽带+智能家居+智慧城市”全业务发展的新模式。此外，电信运营商围绕网络智能化、业务生态化、运营智慧化的方向，以高速光纤网络迅猛发展为依托，以4K、8K超高清视频业务为抓手，逐步实现更加多样化的互动业务。目前，公司有线数字电视机顶盒国内市场占有率稳居行业前三位。', '2、空管产业', '随着我国“一带一路”倡议、军民融合发展战略的大力实施、我国空管设备国产化进程进一步加快，具有自主知识产权的空管设备开始走出国门，空管产业正面临良好的发展机遇。同时，我国军民用航空市场发展迅速，空管系统作为保障军民用航空安全、高效运行的中枢，构建安全高效的空中交通管理体系已成为航空强国的重要支撑和基础保障。目前，公司是四川省重大技术装备八大产业链——航空航天及空管产品链中12家企业之一、也是国内唯一的“国家空管监视与通信系统工程技术研究中心”的实施载体，在2018年度国家科学技术奖励大会上，公司“空地一体化协同防撞关键技术及重大应用”项目荣获国家科技进步二等奖。', '3、物联网产业', '当前，全球物联网市场规模逐步扩大，跨界应用崛起，物联网行业应用渗透率不断提升。同时物联网技术的不断突破，包括5G的标准化、以太网等技术的显著进展，人工智能、机器学习等技术能力的明显提升，以及云计算、开源软件等不断成熟，使得物联网操作系统迭代进步，促进了物联网产业发展逐步成熟。目前，公司以感知技术为核心，深耕物联网应用，先后研发和生产了射频识别（RFID）读写机具系列产品，并以此为基础形成了军事信息化、智慧城市、信息安全等领域的物联网整体解决方案。公司起草了企标及地方行业标准12项，参与国标及国家行业标准制定与修订6项，为推动物联网业务发展奠定了基础。']
+[I 200423 11:58:05 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:05 extract_industry_status:35] 0
+[I 200423 11:58:05 extract_industry_status:36] []
+[I 200423 11:58:05 extract_industry_status:35] 3
+[I 200423 11:58:05 extract_industry_status:36] ['公司所处行业为汽车行业，行业的整体发展直接影响着公司的业绩。根据中国汽车工业协会数据显示，2018年我国汽车产销2,780.92万辆和2,808.06万辆，同比下降4.16%和2.76%。其中乘用车产销2,352.94万辆和2,370.98万辆，同比下降5.15%和4.08%；商用车产销427.98万辆和437.08万辆，同比增长1.69%和5.05%。2018年虽然我国汽车总产销量出现了下滑，但是商用车产销连续两年增长，带动了柴油机气门产品市场的发展，该发展趋势，与我司近年对行业发展的预测是一致的，公司在2016年开始制定并实施了重点发展汽车、工程机械、大型农业机械等高效率、大功率、高技术含量的柴油发动机气门、新能源多介质燃料发动机气门，确保中高档汽油机气门市场份额的战略规划。未来随着纯电动技术的发展，乘用车汽油机市场将受到冲击，需求量逐步减少，而柴油机具有能量密度大、综合效率高的特点，从节约能源、降低燃料成本来说比汽油机更符合节能减排的政策精神因而更具有推广价值，此外柴油机的大功率、高价值优势，使得纯电动汽车难以取代其在重型货车、工程机械等市场的地位。', '展望2019年， 国内车市仍然有不少有利因素，包括：发改委年初发布了《进一步优化供给推动消费平稳增长促进形成强大国内市场的实施方案》，该方案明确“多措并举促进汽车消费，更好满足居民出行需要”，随着相关措施的落实，将有效推动汽车市场的发展。随着我国“一带一路”建设的深入实施，基础设施建设增多，对商用车、重型工程机械的需求量增大，促进了柴油机气门产品市场的发展；新能源汽车的发展，将促进燃气发动机气门的需求；国际汽车发动机厂继续全球采购，合资品牌汽车发动机厂继续加大国产化，日系车企也开始向国内汽车零部件供应商抛出了橄榄枝；国六标准的推行及潍柴、卡特彼勒等重大顾客提出的和核心供应商构建战略联盟及向世界级供应商发展的理念，将有助于公司等一线气门供应商进一步提高市场份额。', '公司的规模、产销量和出口量均居于国内气门行业前列，是中国最早具备同主机配套企业“协同开发设计、独立制造”能力的行业领先企业，制造技术和产品质量达到了国际先进水平，在行业中率先通过了ISO/TS16949质量体系和ISO14001环境管理体系认证，公司还是国内气门标准的主导者之一，多次参与到国家及行业气门标准的制定工作。公司被认定为“国家汽车零部件出口基地企业”、“国家高新技术企业”、“中国内燃机零部件行业排头兵企业”、“中国汽车零部件气门龙头企业”、“中国优秀民营科技企业”、“广东省创新型企业”、“广东省民营科技企业”。公司多次获国家级、省级新产品奖，所生产的“登云”牌气门被认定为“广东省名牌产品”，所拥有的“登云”商标被认定为“广东省著名商标”，并连续多年获得主机厂商的“金牌供应商”、“A级供应商”、“优秀供应商”等荣誉。']
+[I 200423 11:58:05 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:05 extract_industry_status:35] 0
+[I 200423 11:58:05 extract_industry_status:36] []
+[I 200423 11:58:05 extract_industry_status:35] 0
+[I 200423 11:58:05 extract_industry_status:36] []
+[I 200423 11:58:05 extract_industry_status:35] 0
+[I 200423 11:58:05 extract_industry_status:36] []
+[I 200423 11:58:05 extract_industry_status:35] 0
+[I 200423 11:58:05 extract_industry_status:36] []
+[I 200423 11:58:07 utils:37] download cost time: 0:00:01.487085
+[I 200423 11:58:07 utils:52] get annual report count: 10
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 extract_industry_status:35] 0
+[I 200423 11:58:07 extract_industry_status:36] []
+[I 200423 11:58:07 utils:79] cannot get induhc2: sz200706
+[I 200423 11:58:08 extract_industry_status:35] 0
+[I 200423 11:58:08 extract_industry_status:36] []
+[I 200423 11:58:08 extract_industry_status:35] 0
+[I 200423 11:58:08 extract_industry_status:36] []
+[I 200423 11:58:08 extract_industry_status:35] 0
+[I 200423 11:58:08 extract_industry_status:36] []
+[I 200423 11:58:09 utils:37] download cost time: 0:00:01.677096
+[I 200423 11:58:09 utils:52] get annual report count: 10
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:10 extract_industry_status:35] 1
+[I 200423 11:58:10 extract_industry_status:36] ['公司作为中国市场上大型的综合性行业应用软件开发、计算机信息系统集成和信息技术服务提供商，是国内最早通过软件能力成熟度集成（CMMI）5级认证的软件企业之一，是国家首批信息系统集成及服务大型一级企业。公司具有国家涉密计算机信息系统集成甲级资质、安防工程企业一级资质、信息系统安全集成服务二级资质、信息系统运行维护一级资质、ITSS二级证书等，并取得了ISO14001、ISO20000、ISO27001、ISO9001、国军标质量管理等质量体系认证，拥有1,400余项软件著作版权。另外，公司为北京高新技术企业、北京市信用AAA级企业、国家火炬计划重点高新技术企业、智慧城市发展研究中心企业联合组成员、全国信息技术标准化委员会云计算标准工作组成员单位、电子行业联合会理事单位、北京信息化协会理事长会员单位、ITSS全权成员单位等，荣获2018年中国软件行业最具影响力企业、2018年北京软件和信息技术服务综合实力百强企业、2018年度IT转型服务商TOP100等。经过长期的耕耘，公司在相关业务领域具有较为全面的资质、能力与经验，将不断的为公司带来新的业绩增长。']
+[I 200423 11:58:10 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:10 extract_industry_status:35] 0
+[I 200423 11:58:10 extract_industry_status:36] []
+[I 200423 11:58:13 utils:37] download cost time: 0:00:02.042117
+[I 200423 11:58:13 utils:52] get annual report count: 10
+[I 200423 11:58:13 extract_industry_status:35] 0
+[I 200423 11:58:13 extract_industry_status:36] []
+[I 200423 11:58:13 extract_industry_status:35] 0
+[I 200423 11:58:13 extract_industry_status:36] []
+[I 200423 11:58:13 extract_industry_status:35] 1
+[I 200423 11:58:13 extract_industry_status:36] ['公司属于国家高新技术企业，拥有一家省级企业研究院和一个省级企业研发中心，研发和工艺水平处于国内领先、国际先进水平。炊具及家电方面：公司技术团队经过多年积累，掌握了国内领先的多层复合材料、无余量精密成型、连体制造、硬质氧化、小流量排气防溢出等多项涉及炊具材料、制造、产品设计的非专利技术，成为公司生产与经营的强大技术支撑。截止2017年底，公司在炊具家电方面的专利共计2030项，其中发明专利62项，实用新型专利585项，外观专利1383项。']
+[I 200423 11:58:13 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:13 extract_industry_status:35] 0
+[I 200423 11:58:13 extract_industry_status:36] []
+[I 200423 11:58:13 extract_industry_status:35] 0
+[I 200423 11:58:13 extract_industry_status:36] []
+[I 200423 11:58:13 extract_industry_status:35] 2
+[I 200423 11:58:13 extract_industry_status:36] ['2018 年国内经济增长稳中有进，质量进一步改善，为消费市场的发展提供了坚实的基础和良好条件，国内零售市场销售平稳增长，全年社会消费品零售总额380,987亿元，比上年增长9.0%，其中，城镇消费品零售额325,637亿元，增长8.8%；乡村消费品零售额55,350亿元，增长10.1%。国家关于促进流通业创新，扩大消费的政策陆续出台，为消费提供了有力的政策和环境支持，流通企业持续加快变革创新，加快构建现代供应链，建设安全放心的消费环境，并不断推动消费升级，为消费者提供了多样化、多层次及个性化的便利需求。这些因素进一步促进了消费市场稳定健康增长。', '商业零售业与宏观经济波动关联较为紧密，宏观经济的景气程度对居民的可支配收入、消费需求和商品价格具有重大影响，进而影响商业零售业的整体盈利水平。近年来，零售行业陷入了高成本、高竞争、低回报、难扩张的窘境，在毛利率下降，业绩下滑，成本增加的态势之下，又迎来了经济增长速度变缓和电商产业迅速扩张的巨大冲击。线上线下融合的“新零售”业态，成为互联网时代下零售业变革主要方向。']
+[I 200423 11:58:13 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:14 extract_industry_status:35] 0
+[I 200423 11:58:14 extract_industry_status:36] []
+[I 200423 11:58:14 extract_industry_status:35] 0
+[I 200423 11:58:14 extract_industry_status:36] []
+[I 200423 11:58:14 extract_industry_status:35] 0
+[I 200423 11:58:14 extract_industry_status:36] []
+[I 200423 11:58:14 extract_industry_status:35] 0
+[I 200423 11:58:14 extract_industry_status:36] []
+[I 200423 11:58:16 utils:37] download cost time: 0:00:02.295131
+[I 200423 11:58:16 utils:52] get annual report count: 10
+[I 200423 11:58:16 extract_industry_status:35] 3
+[I 200423 11:58:16 extract_industry_status:36] ['有色金属是国民经济、人民日常生活及国防工业、科学技术发展必不可少的基础材料和重要的战略物资。总体来看,近年来我国有色金属行业发展迅速，行业规模迅速扩大, 产能增长过快，但因为需求增长有限，所以整个行业目前处于发展的滞涨期。民营企业作为有色行业的重要组成部分，由于融资成本高、非经营性负担重，发展压力较大，在承担重大项目等方面仍存在壁垒。', '二十多年的行业经验和得天独厚的地域条件，使得公司拥有雄厚的矿产资源储备，根据公司各所属企业最新经国土资源部评审备案通过的储量核实报告，公司主要矿产品保有金属储量分别为：银金属12,119.44吨，锌金属287.26万吨，铅金属84.48万吨，锡金属24.35万吨，镍金属32.84万吨，铜金属22.05万吨，铁矿石3,444.4万吨，铟金属1,077.77吨，锑24.44万吨。同时，公司具有年采选白银300吨，锡金属8,000吨，锌金属10万吨，铁精粉50万吨，铅金属3,000吨，铜金属4,000吨，锑金属1,000吨的生产能力，生产能力以及采选技术科技含量在同规模矿山企业中均处于领先地位。子公司银漫矿业以铅锌银矿和铜锡银锌矿蕴藏为主，含银量较高、矿产品位较高，剩余服务年限较长，为国内最大白银生产矿山。资产的优化，管理的规范，使得公司在同行业领域的竞争能力不断的提高。', '矿产勘探活动及相关费用支出情况：本年度公司勘探活动及相关费用支出共计21,922,359.34元。']
+[I 200423 11:58:16 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:17 extract_industry_status:35] 0
+[I 200423 11:58:17 extract_industry_status:36] []
+[I 200423 11:58:17 extract_industry_status:35] 0
+[I 200423 11:58:17 extract_industry_status:36] []
+[I 200423 11:58:17 extract_industry_status:35] 0
+[I 200423 11:58:17 extract_industry_status:36] []
+[I 200423 11:58:17 extract_industry_status:35] 9
+[I 200423 11:58:17 extract_industry_status:36] ['按照我国国民经济行业分类标准和中国证监会发布的《上市公司行业分类指引》，公司主营业务属“有色金属冶炼及压延加工业”。具体而言，铝加工行业是有色金属压延加工业的子行业，铝挤压行业又是铝加工行业的子行业。公司所处细分行业为高性能铝挤压材行业，按应用方向分为汽车铝挤压材、其他工业铝挤压材两大分支。', '（1）汽车铝挤压材行业', '汽车铝挤压材行业是随着汽车轻量化、节能降耗以及清洁环保等需求孕育而生的。随着汽车制造技术和铝挤压技术的成熟，汽车铝挤压材产品在汽车上的使用量越来越多。经过多年的发展，并且随着市场竞争优胜劣汰机制作用的进一步发挥，我国汽车铝挤压材行业已经跨越了以“数量增长”为特征的初级发展阶段。在总量快速增长的同时，行业内部结构也发生了明显变化。小型汽车铝挤压材加工厂因其铝合金型材产品技术水平低、质量差而逐渐被淘汰，而优秀的拥有核心技术的企业则在竞争中获得越来越大的市场份额，逐渐成为市场的主要供应商。我国汽车铝挤压材行业逐步进入“以提高产品内在质量、丰富产品种类、依靠综合实力竞争”的新阶段。', '汽车铝挤压材行业为整车提供零部件材料，其生产销售随着汽车行业季节性变化而变化。当汽车销售进入旺季时，汽车铝挤压材也很畅销；当汽车销售进入淡季时，汽车铝挤压材厂商订单相应减少。当然，由于汽车厂商通常提前采购生产，保有一定库存量，因此汽车铝挤压材行业与下游行业的季节性并非同步，通常会比汽车行业的季节性提前1－2个月。汽车铝挤压材行业周期与汽车行业周期几乎同步，周期变化略早于汽车行业。', '随着汽车行业的持续发展、节能减排政策的进一步推进，作为汽车行业轻量化材料重要配套供应商，公司积极把握机遇适时扩张规模，进一步占领和扩大国内外市场份额。', '（2）非汽车工业铝挤压材行业', '随着国民经济的持续发展，铝合金原材料制备及加工技术的日趋成熟，国产高性能铝挤压材在航空航天、轨道交通、军民融合、海上石油平台、海水淡化等非汽车工业领域的进口替代应用逐步打开市场。从发展历史来看，铝合金材料与轨道交通、航空航天等工业基本是相辅相成发展，二者升级换代相互促进。由于国内工业铝挤压材行业起步相对较晚，研发技术能力相对落后，在过去相当长一段时间内处于高端产品依赖进口、低端产品产能过剩的总体境况，目前国内优秀企业已开始注重装备水平的提高和产品结构的升级，提升高附加值铝挤压材比重，以满足航空航天等高端领域对铝挤压材的需求。', '工业铝挤压材为航空航天、轨道交通、军民融合、海上石油平台、海水淡化等领域的设施设备提供零部件材料，因该等行业不存在明显季节性变化，工业铝挤压材的周期性特征并不明显。中国大飞机对铝合金材料的需求增加了中国铝加工企业航空民机铝合金研发和规模化生产的紧迫感，我国《关于促进通用航空业发展的指导意见》提出“十三五”期间通用航空业的发展目标，到2020年建成500个以上通用机场、通用航空器达到5000架以上、年飞行量达到200万小时以上。从2015年至2035年的20年是中国航空工业大发展时期，也将是ARJ21支线客机、C919干线客机、Y-20大型喷气式运输机、军机和通用航空器这五大板块的高速持续稳定增长期，且将拉动铝材进入黄金需求期。目前，中国处于轨道交通的第二个黄金期，第一个黄金发展期是2008年中国首条高铁路线京津线投入运营至2016年为止这段时间；第二个黄金需求期为“十三五”与“十四五”规划期即2016年~2025年；2026年起将进入第三黄金需求期，其特点可能是以国外为主。', '目前，公司约20%的总产能服务于非汽车工业领域，市场份额占比相对较小。但随着国内外航空航天、轨道交通、军民融合、海上石油平台、海水淡化等行业需求的持续提升，公司高性能铝挤压材产品供应规模的持续增长，作为处于国内领先行列的高性能、高精密铝挤压材供应商，公司将积极把握市场发展机遇，继续加强高性能铝挤压材产能建设、推进质量管理体系认证、持续开展产品开发和客户服务，为公司未来扩大市场份额打好坚实基础。']
+[I 200423 11:58:17 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:17 extract_industry_status:35] 4
+[I 200423 11:58:17 extract_industry_status:36] ['（1）沥青行业', '公司所处的专业沥青行业属于关系社会民生的支柱行业，国家的基础设施建设离不开沥青材料的支撑，高速公路、高速铁路、高等级公路、乡村道路等构成了四通八达的运输网，是我国经济增长的助推器。根据国务院下发的《“十三五”现代综合交通运输体系发展规划》，“十三五”时期，我国交通运输发展正处于支撑全面建成小康社会的攻坚期、优化网络布局的关键期、提质增效升级的转型期，将进入现代化建设新阶段。要突出对“一带一路”建设、京津冀协同发展、长江经济带发展三大战略和新型城镇化、脱贫攻坚的支撑保障。2019年是“十三五”的倒数第二年，大部分道路项目进入路面摊铺阶段，交通部计划完成公路投资1.8万亿元左右。其中江苏省、浙江省、四川省、广东省、贵州省、广西省、河南省、云南省、山东省9个省的预期投资规模超过千亿。得益于我国基础设施建设的巨大需求，专业沥青行业具有广阔的市场前景，公司自成立以来一直在沥青行业深耕细作，具有可以辐射全国的销售布局，满足客户不同需求的多种类产品，先进的产供销一体化管理，倚仗资本市场的资金和品牌优势，一直处于行业前列。', '（2）通航产业', '公司所处通航产业为国家大力发展的新产业，根据“十三五”规划，到2020年通用机场达到500个以上，通用航空器达到5000架以上，飞行总量达到200万小时。未来通用航空管理方式将得到转变，实现通航发展从部门行为向政府行为、从行业行为向社会行为的观念转变，放开市场，激活社会资本活力，调动各方面积极性，形成促进通航发展的合力。通用航空服务领域将得到拓展，强化交通服务，在偏远地区、地面交通不便地区发展短途运输，提供多样化机型服务，实现常态化运输。扩大通用航空公司公益服务范围、提升民生服务功能，鼓励和加强通用航空在抢险救灾、医疗救护等领域的应用。扩大通用航空农林作业面积，基本实现主要林区航空护林。扩大通用航空在工业、能源、国土等领域应用。在医疗救护、短途运输等社会公共服务飞行领域着力培养骨干企业。公司目前已初步完成产业布局，具备做大做强产业的基础，向着通航产业“第一梯队”挺进。']
+[I 200423 11:58:17 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:17 extract_industry_status:35] 0
+[I 200423 11:58:17 extract_industry_status:36] []
+[I 200423 11:58:18 extract_industry_status:35] 0
+[I 200423 11:58:18 extract_industry_status:36] []
+[I 200423 11:58:18 extract_industry_status:35] 0
+[I 200423 11:58:18 extract_industry_status:36] []
+[I 200423 11:58:18 extract_industry_status:35] 1
+[I 200423 11:58:18 extract_industry_status:36] ['公司作为国内环氧乙烷精深加工行业且产品占据国内40%以上的市场份额，始终保持行业龙头地位。公司已经初步形成了较为完整产品研发、生产及销售渠道，尽管国内环氧乙烷精深加工企业约上百家，其中减水剂聚醚生产企业约80家，但随着行业的集中度将呈现逐渐上升趋势但综合来看，公司可以保持对竞争对手的竞争优势。']
+[I 200423 11:58:18 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:20 utils:37] download cost time: 0:00:01.883108
+[I 200423 11:58:20 utils:52] get annual report count: 10
+[I 200423 11:58:20 extract_industry_status:35] 0
+[I 200423 11:58:20 extract_industry_status:36] []
+[I 200423 11:58:20 extract_industry_status:35] 0
+[I 200423 11:58:20 extract_industry_status:36] []
+[I 200423 11:58:20 extract_industry_status:35] 0
+[I 200423 11:58:20 extract_industry_status:36] []
+[I 200423 11:58:20 extract_industry_status:35] 0
+[I 200423 11:58:20 extract_industry_status:36] []
+[I 200423 11:58:20 extract_industry_status:35] 0
+[I 200423 11:58:20 extract_industry_status:36] []
+[I 200423 11:58:20 extract_industry_status:35] 5
+[I 200423 11:58:20 extract_industry_status:36] ['我国有线电视行业经过几十年的发展，已形成以数字化双向网络为主、覆盖全国的有线电视网络及规模庞大的用户群体，保持着领先的市场份额。但随着IPTV、OTT TV、网络视频等视听新媒体快速发展以及视听媒介终端的多样化，给有线电视带来了冲击，我国视听多元化的特征也愈加明显。', '根据中国广播电视网络有限公司发布的《中国有线电视行业发展公报》，2018年有线电视用户规模2.23亿户，同比降幅达到8.7%，有线电视用户负增长加速，收视份额占比49.89%。数字电视用户1.96亿户，数字化率87.7%。另一方面，全国有线电视行业双向化、高清化、智能化程度持续增长，网络资源利用率进一步提升。其中，双向网覆盖用户1.71亿户，双向网渗透用户9,716.6万户，双向网络覆盖范围进一步扩展；高清电视用户突破1亿户，4K视频点播用户总量达到1,297.2万户，用户增长提速；智能终端数量达1,914.3万户，持续快速增长。', '新媒体产业继续保持增长态势。据CNNIC数据，2018年我国网络视频用户规模达6.12亿，较2017年底增加3,309万，占网民整体的73.9%。短视频、网络直播市场规模快速提升，内容付费逐步成熟。互联网电视行业稳步规范发展，用户总量达到1.64亿户，市场规模迅速增长，并构成广告、付费、增值等业务的盈利格局。', '全国有线电视宽带业务2018年继续保持增长，根据《中国有线电视行业发展公报》，有线电视宽带用户规模达到3,856.3万户，同比增长10.2%，有线宽带渗透率提升至18.1%。但在激烈的市场竞争压力下，全年有线宽带用户增速出现放缓。', '华数传媒拥有有线网络业务、手机电视与互联网电视等全国新媒体业务以及宽带网络业务方面的运营牌照或许可授权，是全国最大的互动电视、手机电视、互联网电视等综合数字化内容的运营商和综合服务提供商之一，位居全国新媒体和三网融合产业发展的第一阵营。']
+[I 200423 11:58:20 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:21 extract_industry_status:35] 0
+[I 200423 11:58:21 extract_industry_status:36] []
+[I 200423 11:58:21 extract_industry_status:35] 0
+[I 200423 11:58:21 extract_industry_status:36] []
+[I 200423 11:58:21 extract_industry_status:35] 0
+[I 200423 11:58:21 extract_industry_status:36] []
+[I 200423 11:58:21 extract_industry_status:35] 4
+[I 200423 11:58:21 extract_industry_status:36] ['公司为国家重点支持的高新技术企业、国家技术创新示范企业，拥有国家认定企业技术中心。设有博士后科研工作站，技术中心实验室具有国家CNAS认可资质、通过美国UL认证。公司是国家机器人标准化总体组成员单位、全国电梯标准化技术委员会委员单位、中国机器人产业联盟副理事长、上海市机器人行业协会副会长单位、上海智能制造产业协会副会长，曾主持/参与编制与修定国家技术标准18项、行业技术标准7项。', '在机器人与运动控制行业，公司是国内机器人与运动控制行业的领先企业之一，也是国内规模最大的伺服系统渠道销售商。公司目前在行业内率先贯通了从“关键核心部件—本体—工程应用—远程信息化”的全产业链，已成为国内智能制造领域具有行业影响力的企业之一。近日，高工产研机器人研究所（GGII）公布了2018年中国SCARA市场出货量排名情况，公司子公司众为兴位居全球品牌第三，稳居国产第一。众为兴已连续第三年保持这一位次，坐稳国产SCARA第一品牌。', '在电梯控制系统行业，公司是国内电梯控制系统行业的龙头企业之一。公司目前同时为美国奥的斯、芬兰通力、瑞士迅达、德国蒂森克虏伯等全球前四大电梯整机厂商配套提供电梯控制系统产品。公司电梯控制类产品种类齐全，主要产品先后被授予“国家重点新产品”、“上海市名牌产品”、“上海市重点新产品”等称号。', '在节能与工业传动行业，公司是国内节能与工业传动行业的先进企业。公司通过自主创新，研发并生产了包括电梯变频器在内的各类高低压工业变频器产品，业务涉及电梯、冶金、市政、空调、起重等诸多领域。凭借优异的性能和在电梯行业强大的品牌影响力，公司目前同时为美国奥的斯、芬兰通力、瑞士迅达、德国蒂森克虏伯等全球前四大电梯整机厂商配套提供电梯变频器产品。']
+[I 200423 11:58:21 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:25 utils:37] download cost time: 0:00:03.694211
+[I 200423 11:58:25 utils:52] get annual report count: 10
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:25 extract_industry_status:35] 0
+[I 200423 11:58:25 extract_industry_status:36] []
+[I 200423 11:58:26 extract_industry_status:35] 0
+[I 200423 11:58:26 extract_industry_status:36] []
+[I 200423 11:58:26 extract_industry_status:35] 0
+[I 200423 11:58:26 extract_industry_status:36] []
+[I 200423 11:58:26 extract_industry_status:35] 0
+[I 200423 11:58:26 extract_industry_status:36] []
+[I 200423 11:58:26 extract_industry_status:35] 0
+[I 200423 11:58:26 extract_industry_status:36] []
+[I 200423 11:58:28 utils:37] download cost time: 0:00:01.857106
+[I 200423 11:58:28 utils:52] get annual report count: 10
+[I 200423 11:58:28 extract_industry_status:35] 0
+[I 200423 11:58:28 extract_industry_status:36] []
+[I 200423 11:58:28 extract_industry_status:35] 0
+[I 200423 11:58:28 extract_industry_status:36] []
+[I 200423 11:58:28 extract_industry_status:35] 0
+[I 200423 11:58:28 extract_industry_status:36] []
+[I 200423 11:58:28 extract_industry_status:35] 2
+[I 200423 11:58:28 extract_industry_status:36] ['在园林机械零部件行业方面，公司是我国该行业主要的零部件生产销售企业之一，是MTD、TTI、HUSQVARNA、EMAK等国际知名园林机械整机厂商的长期业务合作伙伴。公司的主要园林机械零部件产品点火器、飞轮以外销为主。根据海关信息中心数据，公司主要产品在近三年内出口金额（以美元计算）排名位居行业前列。未来，公司将在稳固现有行业地位的同时，进一步在技术与产品领域积极拓展，力争满足客户更加多样化和自动化的零部件产品需求。', '在汽车零部件行业方面，公司汽车零部件方面业务在近三年中，在营业收入方面呈现出三成以上的年均复合增长，相应毛利率水平也有着稳步提升，正实现着行业领域内的后来居上。未来，公司将进一步提高技术水平、扩大生产能力，提高市场份额，大力发展汽车零部件领域业务，深化与现有国内外知名汽车零部件客户的合作，优化产品结构、丰富产品种类，拓宽产品线。同时，公司将大力拓展新客户，向国内外知名汽车零部件配套厂商拓展，为客户提供质量更加优异、附加值更高的产品，不断提高公司产品在国内外市场的份额。']
+[I 200423 11:58:28 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:29 extract_industry_status:35] 4
+[I 200423 11:58:29 extract_industry_status:36] ['1、公司在铝型材加工及轨道交通装备制造行业的地位', '公司是东北、华北地区仅次于中国忠旺的铝型材供应商。铝型材行业存在产能分布的地域性，因受运输成本等因素影响，存在一定的销售半径，通常的销售半径为500公里。多年来，公司在东北、华北地区这一“蓝海市场”深耕细作，最终发展成为该区域市场在生产技术水平、品种规格、市场份额方面均居前列的专业化供应商，成为国内工业铝型材与建筑铝型材两块业务平衡发展的综合供应商之一。目前，无论在挤压装备水平和技术研发水平，还是产品品质和客户质量等方面，公司都处于行业前列。', '2、公司在同行上市公司中的地位', '公司始终坚持“发挥比较优势、专注蓝海市场、服务领先客户、注重产品创新”的总体发展战略，凭借管理层对市场的深刻理解和民营企业高效的决策机制优势，遵循行业的发展趋势，契合下游行业的发展，持续引进先进设备，注重技术研发与创新，不断实行产品结构的调整和升级。']
+[I 200423 11:58:29 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:29 extract_industry_status:35] 0
+[I 200423 11:58:29 extract_industry_status:36] []
+[I 200423 11:58:29 extract_industry_status:35] 0
+[I 200423 11:58:29 extract_industry_status:36] []
+[I 200423 11:58:29 extract_industry_status:35] 0
+[I 200423 11:58:29 extract_industry_status:36] []
+[I 200423 11:58:29 extract_industry_status:35] 0
+[I 200423 11:58:29 extract_industry_status:36] []
+[I 200423 11:58:29 extract_industry_status:35] 0
+[I 200423 11:58:29 extract_industry_status:36] []
+[I 200423 11:58:31 utils:37] download cost time: 0:00:01.715098
+[I 200423 11:58:31 utils:52] get annual report count: 10
+[I 200423 11:58:31 extract_industry_status:35] 0
+[I 200423 11:58:31 extract_industry_status:36] []
+[I 200423 11:58:31 extract_industry_status:35] 0
+[I 200423 11:58:31 extract_industry_status:36] []
+[I 200423 11:58:31 extract_industry_status:35] 0
+[I 200423 11:58:31 extract_industry_status:36] []
+[I 200423 11:58:31 extract_industry_status:35] 6
+[I 200423 11:58:31 extract_industry_status:36] ['（1）行业概况', '2005年以来，物流业进入对外开放时期。外资物流的不断进入，为物流业带来了先进的技术、管理和经验。同时随着我国宏观经济运行的较快增长，物流市场需求旺盛，全社会物流总额保持较快增速。但物流行业的重要地位和高昂的物流成本迫使物流企业进行转型，现代物流应运而生。现代物流是融合运输业、仓储业、货代业和信息业等的复合型服务产业，是支持和服务于国民经济的重要部门。现代物流以电子化的信息平台和专业化的配送团队，在缩短仓储的时间和配送的成本的同时，为企业提供金融担保等集成化的服务。', '（2）行业发展趋势', '未来5-10年物流行业的发展，主要依赖于效率的提升和成本的节约。因此，现代物流是未来物流重要的发展方向。现代物流通过高度信息化、高科技装备以及良好的体系建设，可以最大限度地对整个供应链进行无缝管理，从而达到有效降低物流成本的目的。另一方面，随着政策的推动，信息、交通等在内的物流基础设施建设将会得以加强和完善，物流布局结构不断优化，物流企业也将在市场细分的基础上向专业化、差异化和科技化的方向发展。总之，从中长期来看，现阶段影响我国物流业发展的制约因素将会逐步减弱，我国物流总量仍将继续保持高速增长，现代物流业将会迎来一个加速成长的新时期。', '（3）相关政策', '2009年以来政府陆续出台了支持物流业发展的相关政策。如2009年3月10日，国务院向各省市自治区政府、各部委和直属机构印发了《物流业调整和振兴规划》，在《十大产业振兴规划》中，物流业是唯一的服务业规划。2011年6月8日，国务院常务会议研究部署促进物流业健康发展工作，从税费、过路过桥费等八项政策为物流业减负。2011年8月19日，国务院办公厅又提出了《关于促进物流业健康发展政策措施的意见》，在减税、土地政策、物流管理体制、物流技术等方面提出了一些意见；同年10月，国务院常务会议决定，从2012年1月1日起，在上海市开展交通运输业和部分现代服务业营业税改增值税试点。2012年8月份《国务院关于深化流通体制改革加快流通产业发展的意见》中提出了7项主要任务、5项支持政策、5项保障措施。2012年12月1日，国务院印发的《服务业发展“十二五”规划》中，再次提出要大力发展现代物流，从而加快发展生产性服务业。2013年初的中央经济工作会议确定了我国2013年经济工作继续保持“稳中求进”的总基调，物流业将以降低全社会物流总成本、提高物流运行效率为中心，进一步树立整合理念，促进结构调整，加大转型力度，提高服务水平和增长质量，全面推动我国物流业的持续健康发展。2014年6月11日，李克强总理主持召开国务院常务会议，讨论通过《物流业发展中长期规划（2014—2020）》（以下简称《中长期规划》），9月12日以国发〔2014〕42号文正式发布。这是继2009年国务院《物流业调整和振兴规划》出台以来，又一个指导物流业发展的纲领性文件。党的十八大以来，习近平总书记、李克强总理等多次考察物流企业，对物流业发展作出重要讲话和批示。此次出台的《中长期规划》，把物流业定位于支撑国民经济发展的基础性、战略性产业，是物流业产业地位进一步提升的重要标志。国家还发布了《关于促进跨境电子商务健康快速发展的指导意见》、《“互联网+”行动指导意见》等，跨境电商业务的流程有望变得更加便捷和规范，互联网经济将成为国家战略。2017年商务部联合五部委发布《商贸物流发展“十三五”规划》。规划指出“十三五”期间，商贸物流成本明显下降，批发零售企业物流费用率降低到7%左右，服务质量和效率明显提升；基本建立起高效集约、协同共享、融合开放、绿色环保的商贸物流体系。进一步推动我国商贸物流业健康发展，降低物流成本，提高流通效率，为物流业发展提供良好环境。']
+[I 200423 11:58:32 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:32 extract_industry_status:35] 0
+[I 200423 11:58:32 extract_industry_status:36] []
+[I 200423 11:58:32 extract_industry_status:35] 0
+[I 200423 11:58:32 extract_industry_status:36] []
+[I 200423 11:58:32 extract_industry_status:35] 0
+[I 200423 11:58:32 extract_industry_status:36] []
+[I 200423 11:58:32 extract_industry_status:35] 8
+[I 200423 11:58:32 extract_industry_status:36] ['我国证券行业在多个驱动因素下稳步发展，主要包括以下方面：', '（1）资本市场日益完善，融资功能提升。中国资本市场的规模增长及结构优化是中国证券业发展的基本驱动力。中国资本市场整体发展，尤其是直接融资的增长，为中国证券业带来了重要发展机遇。与此同时，中国资本市场的市场化改革和审慎监管体系的建立也为证券公司业务稳健发展带来了契机。', '（2）居民财富规模扩大，财富管理需求快速增加。在过去三十年中国经济高速增长的驱动下，中国居民财富规模不断扩大。2015年至2018年，中国居民人均可支配收入从21,966元增长至28,228元，年均复合增长率为8.72%，其中城镇居民人均可支配收入从31,194元增长至39,251元，年均复合增长率为7.96%。人均收入的提高带来了对财富管理及其他金融服务需求的上升。', '（3）资本市场对外开放与国际化进程加快。继“沪港通”、“深港通”之后，两地监管机构推出“债券通”业务；A股2017年被宣布纳入MSCI指数范围，为此大规模的国际资金将配置到A股；随着国家“一带一路”倡议的稳步推进，资本市场的国际化进程也在加速推进。', '（4）金融科技快速发展。近年来随着互联网技术的不断成熟，中国证券公司相继开发及完善在线业务。新兴互联网经营模式使证券公司得以在互联网平台吸引大量零售客户，出售标准化产品。与此同时，随着科技及证券行业服务模式的不断发展，金融科技已经不再局限于在线出售产品，更意味着证券公司可以通过大数据分析，在提高自身资产定价能力的同时为客户提供差异化服务，进一步满足客户的需要并提高客户粘性。金融科技对证券行业的影响还将不断深化，在降低证券公司成本的同时，提升证券服务的便捷性和多样性。', '（5）粤港澳大湾区发展规划纲要发布。纲要明确将建设国际金融枢纽、大力发展特色金融产业、有序推进金融市场互联互通等加快发展现代服务业的举措，以构建具有国际竞争力的现代产业体系。将巩固和提升香港国际金融中心地位，支持深圳依规发展以深交所为核心的资本市场，支持澳门打造中国－葡语国家金融服务平台，研究探索建设澳门－珠海跨境金融合作示范区。', '公司证券业务依赖于中国经济增长、居民财富积累及资本市场的发展及表现，如，股票、债券和理财产品等类型的金融产品的发行规模、投资规模及交易规模等重要变量的发展与表现。这些重要变量受经济环境、监管环境、投资者情绪以及国际市场等多方面因素影响，整体趋势呈现出螺旋式上升态势。', '根据中国证券业协会于2018年6月发布的《2017年度证券公司经营业绩排名情况》，国盛证券2017年末总资产、净资产以及2017年度营业收入、净利润的行业排名分别为第61位、47位、54位、36位。']
+[I 200423 11:58:32 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:32 extract_industry_status:35] 0
+[I 200423 11:58:32 extract_industry_status:36] []
+[I 200423 11:58:32 extract_industry_status:35] 0
+[I 200423 11:58:32 extract_industry_status:36] []
+[I 200423 11:58:34 utils:37] download cost time: 0:00:01.840105
+[I 200423 11:58:34 utils:52] get annual report count: 10
+[I 200423 11:58:34 utils:79] cannot get induhc2: sh600680
+[I 200423 11:58:34 extract_industry_status:35] 0
+[I 200423 11:58:34 extract_industry_status:36] []
+[I 200423 11:58:34 extract_industry_status:35] 0
+[I 200423 11:58:34 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:35 extract_industry_status:35] 0
+[I 200423 11:58:35 extract_industry_status:36] []
+[I 200423 11:58:37 utils:37] download cost time: 0:00:01.856106
+[I 200423 11:58:37 utils:52] get annual report count: 10
+[I 200423 11:58:37 extract_industry_status:35] 0
+[I 200423 11:58:37 extract_industry_status:36] []
+[I 200423 11:58:37 extract_industry_status:35] 0
+[I 200423 11:58:37 extract_industry_status:36] []
+[I 200423 11:58:37 extract_industry_status:35] 0
+[I 200423 11:58:37 extract_industry_status:36] []
+[I 200423 11:58:37 extract_industry_status:35] 0
+[I 200423 11:58:37 extract_industry_status:36] []
+[I 200423 11:58:37 extract_industry_status:35] 0
+[I 200423 11:58:37 extract_industry_status:36] []
+[I 200423 11:58:38 extract_industry_status:35] 0
+[I 200423 11:58:38 extract_industry_status:36] []
+[I 200423 11:58:38 utils:79] cannot get induhc2: sz002070
+[I 200423 11:58:38 extract_industry_status:35] 0
+[I 200423 11:58:38 extract_industry_status:36] []
+[I 200423 11:58:38 extract_industry_status:35] 0
+[I 200423 11:58:38 extract_industry_status:36] []
+[I 200423 11:58:38 extract_industry_status:35] 0
+[I 200423 11:58:38 extract_industry_status:36] []
+[I 200423 11:58:40 utils:37] download cost time: 0:00:02.041117
+[I 200423 11:58:40 utils:52] get annual report count: 10
+[I 200423 11:58:40 extract_industry_status:35] 10
+[I 200423 11:58:40 extract_industry_status:36] ['1、影视行业', '2018年中国电影票房首次突破600亿元，国产片市场占比超六成。国产电影创作质量进一步提升，优秀作品不断涌现。电影、电视剧、综艺节目、纪录片、动画等产量保持快速增长。无论数量规模品种、质量效益经营，广播影视内容产业发展方式从以数量规模增长为主向质量效益提高为主转变。', '影视行业随着政策的日益完善，特别是在“网上网下统一标准”、网剧备案登记制及网络剧、微电影等网络原创视听节目系列管理规定的规范管理下，网络剧、微电影等网络原创节目不断增加。网络视听新媒体已成为传播党的声音的重要阵地，成为传播社会主义文艺的重要力量，成为大众文化信息消费的重要平台，成为实施创新驱动战略、培育新经济的重要引擎。传统媒体将发展新媒体作为重大战略取得了引人瞩目的成绩。未来影视产业将在电影制作、发行、播映及衍生品市场具备广阔的发展空间。同时在电视剧产业层面，电视剧、综艺节目、网络剧等市场发展前景良好。', '2、游戏行业', '随着全球互联网的发展以及电脑、智能手机、平板电脑等电子设备的更新换代，网络游戏载体、类型不断丰富，游戏品质不断提高，各细分游戏类型均有庞大的受众群体，全球游戏市场迅速崛起，市场规模逐步扩大。2018年，中国游戏市场实际销售收入已超过2100亿元，达2144.4亿元，同比增长5.3%，占同期全球市场比例约为23.6%。', '目前，随着网络游戏行业的发展成熟，产业链逐步细分且与文学、动漫、影视等领域深度融合，“文学/动漫/影视+网络游戏”等多种新型商业模式日益成熟，激发游戏市场的繁荣发展，为用户提供了更深度的娱乐体验。', '3、制造板块：', '公司是国内第一家工业金属管件行业上市公司，也是目前国内最大的金属管件生产企业，工业金属管件应用范围广泛，涉及国民经济的各个领域，公司产品大量销售并应用于石油、化工、海洋工程、船舶、建筑、燃气、核电等行业。', '管道运输是我国油气运输体系中的主要形式，在综合运输体系中发挥的作用越来越突出，对我国经济的健康发展影响也越来越明显。近年来，我国油气管道建设进一步发展，多项大型管道工程相继建成并投入生产使用，这对我国经济建设速度的提升具有极为重要的战略意义。', '公司董事长作为公司制造板块发展的领头人，在金属管件行业从业超过20年，在技术、销售、管理方面，以及对行业的熟悉程度、未来的发展方向等具有独到的经验与掌控能力，公司也培养了优秀的制造、销售、管理团队，形成了独特的核心竞争力。']
+[I 200423 11:58:40 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:40 extract_industry_status:35] 0
+[I 200423 11:58:40 extract_industry_status:36] []
+[I 200423 11:58:40 extract_industry_status:35] 0
+[I 200423 11:58:40 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:41 extract_industry_status:35] 0
+[I 200423 11:58:41 extract_industry_status:36] []
+[I 200423 11:58:43 utils:37] download cost time: 0:00:02.065118
+[I 200423 11:58:43 utils:52] get annual report count: 10
+[I 200423 11:58:43 extract_industry_status:35] 1
+[I 200423 11:58:43 extract_industry_status:36] ['随着数字电视产业双向化、宽带化、高清化、智能化进程进一步加快，融合转型已成为发展的主旋律。广电运营商一方面努力加快有线网络基础设施升级改造，努力实现互联互通，从技术和业务双重层面挖掘智慧化、融合化潜力，打造新时代有线网络的新核心竞争力。另一方面积极开展内容升级，布局教育、电竞、健康、娱乐等市场，以差异性、独特性、丰富性为原则打造新视听内容，逐步实现由业务单一的有线电视服务提供商向综合信息服务提供商转型。而国内三大通信运营商则继续加快战略转型，以 IPTV 机顶盒为载体借由高速光纤网络，为广大数字家庭用户提供丰富多样的互动业务。 经过多年持续发展，公司正在历经从一家传统设备供应商转变为向运营商提供设备、整体解决方案以及增值业务的综合服务商。']
+[I 200423 11:58:43 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:44 extract_industry_status:35] 0
+[I 200423 11:58:44 extract_industry_status:36] []
+[I 200423 11:58:47 utils:37] download cost time: 0:00:02.712155
+[I 200423 11:58:47 utils:52] get annual report count: 10
+[I 200423 11:58:47 extract_industry_status:35] 11
+[I 200423 11:58:47 extract_industry_status:36] ['1、装饰行业基本情况介绍', '建筑装饰行业是建筑行业的重要组成部分之一，与房屋和土木工程建筑业、建筑安装业并列为建筑业的三大组成部分。近年来，伴随着我国经济的快速增长、城镇化步伐加快，我国房地产、建筑业持续增长，建筑装饰行业显现出巨大的发展潜力。建筑装饰行业虽然总体市场规模大，但其进入门槛相对较低，市场集中度依然较低，行业整体呈现出“大行业，小企业”的局面。', '“十三五”时期，我国经济发展进入新常态，经济结构优化升级，驱动力由投资驱动转向创新驱动。以发挥市场在资源配置中起决定性作用和更好发挥政府作用为核心的全面深化改革进入关键时期。新型城镇化、京津冀协调发展、长江经济带发展和“一带一路”建设，形成建筑业未来发展的重要推动力和宝贵机遇。', '2018年我国经济实力实现新跃升。国家统计局公报显示，全年全社会建筑业增加值61,808亿元，比上年增长4.5%。全国具有资质等级的总承包和专业承包建筑业企业利润8,104亿元，比上年增长8.2%，其中国有控股企业2,470亿元，增长8.5%。', '2、行业发展阶段和周期性特点', '建筑装饰行业是中国经济体制改革和对外开放的产物，也是中国最早引入市场机制、进行市场化运作的行业，中国建筑装饰行业以民营经济为主体，民营企业占建筑装饰企业总数的大多数。多数企业自成立起就建立起了同市场机制相适应的管理体制，形成了适应生产力发展水平的生产关系格局。行业内的竞争机制、用人机制、激励机制、分配机制等，在中国经济生活中具有时代性和超前性。行业内的设计水平、材料生产能力和施工技术水平也相应提高。', '住宅装饰精装修的周期与房地产业的发展周期较为契合，随着房地产行业的上升而发展，回落而下调。而公共建筑装饰工程波动并不明显，该特点是由公共建筑装饰工程的行业特点决定的。', '整体来看，本公司所处的建筑装饰行业处于持续稳步发展的阶段。', '针对行业未来发展趋势和周期性特点，公司将结合公司实际，通过产业转型升级、延伸产业链、提升管理效率来突破需求，充分利用装饰总承包模式、住宅全装修政策、装配式建筑、长租公寓带来的红利。', '3、公司在行业中的地位', '报告期，公司连续13年蝉联“中国建筑装饰行业百强企业第二名”， 亚厦幕墙首次跃居中国建筑幕墙行业百强企业第二名，综合实力位居行业前列，是“AAA”级信用单位。同时，还荣获“2018年建筑幕墙制作安装行业推荐优秀企业”、“中国房地产精装修工程优质供应商”、“2017年度浙江省先进建筑业企业”等荣誉。报告期，公司共荣获5项“鲁班奖”、1项“木土工程詹天佑奖”、31项“全国建筑工程装饰奖”、33项“全国建筑装饰科技示范工程奖”等多个国家级优质工程奖。截止2018年末，公司共荣获鲁班奖37项，国家优质工程金质奖1项，国家优质工程银奖18项，全国建筑工程装饰奖（含设计类）290项，全国建筑装饰科技奖633项，全军金奖工程（含设计类）61项，省级优质工程2,234项，获奖数量在行业内处于领先地位。']
+[I 200423 11:58:48 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:48 extract_industry_status:35] 0
+[I 200423 11:58:48 extract_industry_status:36] []
+[I 200423 11:58:49 extract_industry_status:35] 0
+[I 200423 11:58:49 extract_industry_status:36] []
+[I 200423 11:58:49 extract_industry_status:35] 0
+[I 200423 11:58:49 extract_industry_status:36] []
+[I 200423 11:58:51 utils:37] download cost time: 0:00:02.347134
+[I 200423 11:58:51 utils:52] get annual report count: 10
+[I 200423 11:58:51 extract_industry_status:35] 0
+[I 200423 11:58:51 extract_industry_status:36] []
+[I 200423 11:58:51 extract_industry_status:35] 0
+[I 200423 11:58:51 extract_industry_status:36] []
+[I 200423 11:58:51 extract_industry_status:35] 0
+[I 200423 11:58:51 extract_industry_status:36] []
+[I 200423 11:58:51 extract_industry_status:35] 0
+[I 200423 11:58:51 extract_industry_status:36] []
+[I 200423 11:58:52 extract_industry_status:35] 0
+[I 200423 11:58:52 extract_industry_status:36] []
+[I 200423 11:58:52 extract_industry_status:35] 0
+[I 200423 11:58:52 extract_industry_status:36] []
+[I 200423 11:58:52 extract_industry_status:35] 0
+[I 200423 11:58:52 extract_industry_status:36] []
+[I 200423 11:58:52 extract_industry_status:35] 1
+[I 200423 11:58:52 extract_industry_status:36] ['公司是目前中国大陆领先的闪存芯片设计企业。据 TrendForce 数据统计，按营业收入计算，公司进入2017年中国IC设计行业收入排名前十。依据Web-Feet Research数据，2017年公司闪存产品全球销售额排名第十位。在NOR Flash市场，公司的全球销售额排名为第五位，市场占有率为10.5%，前四位分别为美光、旺宏电子、赛普拉斯半导体和华邦电子。在串行NOR Flash产品市场，公司全球销售额排名为第三位，前二位分别为华邦电子、旺宏电子。']
+[I 200423 11:58:52 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:52 extract_industry_status:35] 2
+[I 200423 11:58:52 extract_industry_status:36] ['2018年，在医疗卫生体制改革和发展模式深刻变革的情况下，公司审时度势，秉承“研究为源，健康为本”的经营理念，立足研发和制造具有临床价值的好药，加速质量一致性评价的进程，适应分级诊疗的医改趋势，下沉商业渠道和营销终端，满足患者用药的可及性和先进性，主营业务收入和利润保持良好增长。', '奥赛康药业是国内最大的质子泵抑制剂（PPIs）注射剂生产企业之一，通过在医药制造行业多年的深耕细作，奥赛康药业形成了多品类多层次的产品管线和良好的产品质量口碑，资产规模和盈利能力均处于业界领先地位。2018年位列中国化学制药行业工业企业综合实力百强第35名。']
+[I 200423 11:58:52 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:52 extract_industry_status:35] 0
+[I 200423 11:58:52 extract_industry_status:36] []
+[I 200423 11:58:55 utils:37] download cost time: 0:00:02.279131
+[I 200423 11:58:55 utils:52] get annual report count: 10
+[I 200423 11:58:55 extract_industry_status:35] 0
+[I 200423 11:58:55 extract_industry_status:36] []
+[I 200423 11:58:55 extract_industry_status:35] 4
+[I 200423 11:58:55 extract_industry_status:36] ['公司“神奇”品牌具有超过30年的经营历史，是获国家工商总局评定的“中国驰名商标”，多次荣登荣获世界品牌实验室中国500强最具价值品牌排行榜、中国医药最具影响力“中国制造100强”、“中国医药行业成长50强”等荣誉称号。现已形成了独特的品牌文化，品牌知名度、美誉度、影响力。', '公司旗下产品兼具OTC和处方药品种，主要子公司拥有药品批准文号143个。持续聚焦抗肿瘤类药物、心脑血管类药物、感冒止咳类、小儿类药物、抗真菌类药物、补益类药物、骨科类、妇科类八大领域。核心产品为抗肿瘤类药物斑蝥酸钠系列产品，公司拥有的斑蝥酸钠原料药和注射剂为全国独家产品，市场占有率位居行业前列。神奇止咳系列产品是国内呼吸类用药领导品牌。', '中国非处方药协会统计调研全国制药企业2018年全年企业非处方药销售额，结果显示：公司位列2018年度中国非处方药生产企业100强，综合统计第63名；子公司金桥药业产品“珊瑚癣净”位列2018年度中国非处方药物皮肤科类药物100强，综合统计第4名；子公司神奇药业产品“枇杷止咳颗粒/胶囊”位列2018年度中国非处方药产品止咳化痰平喘类药物100强，综合统计第10名。', '下属公司滨州神奇大药房有限公司，已取得山东省GSP资格认证，拥有104家直营药店（其中医保定点门店65家），在滨州地区排名第一。在2018年3月，中国药店杂志社发布的“2017-2018年度中国药店发展报告暨价值榜”上，滨州神奇名列“2017-2018年度中国药店价值榜潜力50强”第46位、“2017-2018年度中国药店直营连锁100强”第93位。']
+[I 200423 11:58:56 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:56 extract_industry_status:35] 2
+[I 200423 11:58:56 extract_industry_status:36] ['公司是集药品研发、生产、销售为一体的医药工业企业。公司产品涉及肿瘤、心脑血管、妇科、儿科、骨科和呼吸等多个治疗领域，已形成比较完善的产品布局。报告期内，公司获得 “2017年度中国医药工业百强”、“2017年度中国制药工业百强”、“2018年贵州‘双百强’企业”、“贵州‘十佳民营企业’”、“2017年度市级守合同重信用企业”、“2018年贵阳市市长质量奖”等荣誉。', '公司经过多年的发展，从单一中成药企业发展成为拥有化学制剂、中成药、生物制剂、大健康产品、医疗服务的全产业链医药工业集团。在抗肿瘤、心脑血管和妇儿药品等中国药品市场最具用药规模和成长性的治疗领域，已形成比较完善的产品布局，公司核心产品洛铂、艾迪、康赛迪、杏丁、葆宫止血颗粒、金莲清热泡腾片等产品在各自细分领域的市场占有率位居行业前列。']
+[I 200423 11:58:56 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:56 extract_industry_status:35] 0
+[I 200423 11:58:56 extract_industry_status:36] []
+[I 200423 11:58:56 extract_industry_status:35] 0
+[I 200423 11:58:56 extract_industry_status:36] []
+[I 200423 11:58:56 utils:68] 摘要 or 已取消, continue
+[I 200423 11:58:56 extract_industry_status:35] 1
+[I 200423 11:58:56 extract_industry_status:36] ['经过在电子市场行业31年的辛勤耕耘，公司作为中国电子专业市场经营模式的创办者，在行业内居领先地位，公司以直营、联营及委托经营的方式在全国已开办二十余家电子专业市场，形成了覆盖了珠三角、长三角、辐射全国的连锁专业电子市场体系，在国内外拥有较高的品牌影响力。']
+[I 200423 11:58:56 utils:106] save text true 1, save candidate code 0
+[I 200423 11:58:57 extract_industry_status:35] 0
+[I 200423 11:58:57 extract_industry_status:36] []
+[I 200423 11:58:57 extract_industry_status:35] 0
+[I 200423 11:58:57 extract_industry_status:36] []
+[I 200423 11:58:57 extract_industry_status:35] 0
+[I 200423 11:58:57 extract_industry_status:36] []
+[I 200423 11:58:59 utils:37] download cost time: 0:00:02.012115
+[I 200423 11:58:59 utils:52] get annual report count: 10
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 0
+[I 200423 11:58:59 extract_industry_status:36] []
+[I 200423 11:58:59 extract_industry_status:35] 1
+[I 200423 11:58:59 extract_industry_status:36] ['2018年在全国有色金属行业前 50 名企业中，白银有色排名第 12 位；中国企业 500 强排名，白银有色排名第287位；在中国跨国公司100强位列第86位。锌金属产量在国内同类企业产量排名第4位，铜金属产量在国内同类企业产量排名第10位。']
+[I 200423 11:59:00 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:00 extract_industry_status:35] 0
+[I 200423 11:59:00 extract_industry_status:36] []
+[I 200423 11:59:00 extract_industry_status:35] 0
+[I 200423 11:59:00 extract_industry_status:36] []
+[I 200423 11:59:00 extract_industry_status:35] 0
+[I 200423 11:59:00 extract_industry_status:36] []
+[I 200423 11:59:02 utils:37] download cost time: 0:00:01.759101
+[I 200423 11:59:02 utils:52] get annual report count: 10
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 utils:79] cannot get induhc2: sh600401
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:02 extract_industry_status:35] 0
+[I 200423 11:59:02 extract_industry_status:36] []
+[I 200423 11:59:05 utils:37] download cost time: 0:00:02.196126
+[I 200423 11:59:05 utils:52] get annual report count: 10
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:05 extract_industry_status:35] 0
+[I 200423 11:59:05 extract_industry_status:36] []
+[I 200423 11:59:06 extract_industry_status:35] 0
+[I 200423 11:59:06 extract_industry_status:36] []
+[I 200423 11:59:06 extract_industry_status:35] 0
+[I 200423 11:59:06 extract_industry_status:36] []
+[I 200423 11:59:08 utils:37] download cost time: 0:00:02.219127
+[I 200423 11:59:08 utils:52] get annual report count: 10
+[I 200423 11:59:08 extract_industry_status:35] 0
+[I 200423 11:59:08 extract_industry_status:36] []
+[I 200423 11:59:08 extract_industry_status:35] 0
+[I 200423 11:59:08 extract_industry_status:36] []
+[I 200423 11:59:08 extract_industry_status:35] 1
+[I 200423 11:59:08 extract_industry_status:36] ['公司作为浙江省家具协会的副会长单位、浙江省椅业协会的副会长单位、浙江省家具标准化技术委员会委员单位，自成立起就以“致力于向大众提供高品质的健康座椅”为使命，专注于座椅制造领域，以人为主体，结合人体工程学，为大众提供安全、健康、高效能和舒适的坐具。公司是国家办公椅行业标准的主要起草单位；是中国家具行业优秀企业、国家知识产权优势企业、浙江省家具行业省级先进企业、品质浙江出口领军企业、浙江省制造业网络营销示范企业、G20杭州峰会最佳合作伙伴、湖州市进出口贸易先进企业、中国按摩椅保健器具出口十强企业；拥有智能化功能坐具省级企业研究院、智能化功能坐具省级高新技术企业研发中心、浙江省企业技术中心、浙江省工业设计中心、浙江省博士后工作站、院士专家工作站等资质。2018年获国家专利示范企业、2018年度浙江省家具行业质量与标准重视奖-五星企业、2018年度浙江省家具行业领军企业、湖州市纳税大户、2017年度湖州市金牛企业等称号，同时，以恒林为主起草的《午休椅》“浙江制造”团体标准通过评审。']
+[I 200423 11:59:08 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:08 extract_industry_status:35] 0
+[I 200423 11:59:08 extract_industry_status:36] []
+[I 200423 11:59:09 extract_industry_status:35] 0
+[I 200423 11:59:09 extract_industry_status:36] []
+[I 200423 11:59:09 extract_industry_status:35] 0
+[I 200423 11:59:09 extract_industry_status:36] []
+[I 200423 11:59:09 extract_industry_status:35] 0
+[I 200423 11:59:09 extract_industry_status:36] []
+[I 200423 11:59:09 extract_industry_status:35] 0
+[I 200423 11:59:09 extract_industry_status:36] []
+[I 200423 11:59:09 extract_industry_status:35] 1
+[I 200423 11:59:09 extract_industry_status:36] ['2018年公司轻型货车实现销售20.35万辆，继续保持行业优势地位；2018年公司实现出口7.48万辆，同比增长12.53%,出口数位列行业前列。']
+[I 200423 11:59:09 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:09 extract_industry_status:35] 0
+[I 200423 11:59:09 extract_industry_status:36] []
+[I 200423 11:59:11 utils:37] download cost time: 0:00:02.119122
+[I 200423 11:59:11 utils:52] get annual report count: 10
+[I 200423 11:59:11 extract_industry_status:35] 29
+[I 200423 11:59:12 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:12 extract_industry_status:35] 0
+[I 200423 11:59:12 extract_industry_status:36] []
+[I 200423 11:59:12 extract_industry_status:35] 2
+[I 200423 11:59:12 extract_industry_status:36] ['公司是国内首家通过美国FDA制剂认证的企业，在国际GMP认证、制剂以及原料药的海外注册、国际合作等领域处于国内同行业领先地位。公司是国内通过美国FDA、欧洲COS（欧洲药典适应性认证）、WHO（世界卫生组织）、澳大利亚TGA（澳大利亚药品管理局）等国际主流市场官方认证最多的制药企业之一，自主拥有61个美国ANDA文号，在制剂国际化领域走在国内行业的前列。同时，公司是国内特色原料药的龙头企业，特别是心血管药物领域，公司拥有核心技术，是全球最大的普利类、沙坦类药物供应商。', '公司是国家重点高新技术企业、国家创新型企业、中国医药工业百强企业，设有“国家级企业技术中心”、“博士后科研工作站”、“院士工作站”、“省级企业研究院”，是中国首家荣获“国家环境友好企业”称号的医药企业。报告期内，公司获得“国家技术创新示范企业”、“国家知识产权示范企业”、“中国西成药行业会员企业出口十强”等众多荣誉；同时，公司成功列入工信部第二批绿色制造名单，获评“绿色工厂”称号。']
+[I 200423 11:59:12 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:13 extract_industry_status:35] 0
+[I 200423 11:59:13 extract_industry_status:36] []
+[I 200423 11:59:13 extract_industry_status:35] 1
+[I 200423 11:59:13 extract_industry_status:36] ['2018年国际环境错综复杂，国内经济下行压力加剧。食品安全形势依然严峻,包材成本持续涨价，劳动成本骤然上升,尤其是非洲猪瘟疫情持续蔓延，对食品行业产生很大影响。秋林食品公司作为哈尔滨最悠久的食品加工企业之一，经过百年经营发展，形成了自己独有的历史特色、文化特色、产品特色、工艺特色、经营特色，拥有独特的跨行业综合门类产业结构，实体店和互联网销售并存的经营新格局，百年企业品牌形象和广泛的社会影响力，在全国同行业中始终独具特色，严格品质管理，一直处于行业的领先地位，企业经营正在健康稳步地发展。']
+[I 200423 11:59:13 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:13 extract_industry_status:35] 0
+[I 200423 11:59:13 extract_industry_status:36] []
+[I 200423 11:59:13 extract_industry_status:35] 2
+[I 200423 11:59:13 extract_industry_status:36] ['中新科技集团是全球电子行业优秀的智慧显示终端原始设计与研发制造商，公司研、产、销一体化稳步发展，行业地位稳步提升。公司具备完整、雄厚的研发、制造和供应链管理能力，在全球行业企业中位居前列。2018年度，中新科技集团连续五年蝉联“中国十大彩电出口企业”。', '公司坚持以品牌销售和ODM相结合的战略决策，构建国内国外、线上线下多维市场紧密互动、协同发展的新格局，产品远销亚洲、北美、欧洲和大洋洲等全球多个国家和地区。近年来，公司全面导入品牌发展战略，品牌知名度和美誉度大幅提升，产业附加值不断增加，未来将占据全球更大的市场份额。']
+[I 200423 11:59:13 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:13 extract_industry_status:35] 0
+[I 200423 11:59:13 extract_industry_status:36] []
+[I 200423 11:59:13 extract_industry_status:35] 0
+[I 200423 11:59:13 extract_industry_status:36] []
+[I 200423 11:59:13 extract_industry_status:35] 2
+[I 200423 11:59:13 extract_industry_status:36] ['我国家具行业竞争格局分散，市场集中度低，具备极大的行业整合潜力。根据国家统计局数据显示，2017年，我国规模以上家具制造企业主营业务收入8787.88亿元，此外，据上市公司2017年年报显示，我国主板上市的18家家具公司2017年合计营业收入为642.96亿，占规模以上家具制造企业主营业务收入比例为7.32%，行业集中度分散现状极为明显。', '曲美家居一直秉承“设计创造生活”的理念和中高端的品牌市场定位，2018 年，公司营业收入28.92亿元，在国内家具品牌中名列前茅。']
+[I 200423 11:59:13 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:16 utils:37] download cost time: 0:00:02.270130
+[I 200423 11:59:16 utils:52] get annual report count: 10
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:16 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:37] download cost time: 0:00:02.295132
+[I 200423 11:59:18 utils:52] get annual report count: 10
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:18 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:37] download cost time: 0:00:02.766158
+[I 200423 11:59:21 utils:52] get annual report count: 10
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:21 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:23 utils:37] download cost time: 0:00:02.135122
+[I 200423 11:59:23 utils:52] get annual report count: 10
+[I 200423 11:59:23 extract_industry_status:35] 0
+[I 200423 11:59:23 extract_industry_status:36] []
+[I 200423 11:59:23 extract_industry_status:35] 0
+[I 200423 11:59:23 extract_industry_status:36] []
+[I 200423 11:59:23 extract_industry_status:35] 0
+[I 200423 11:59:23 extract_industry_status:36] []
+[I 200423 11:59:23 extract_industry_status:35] 0
+[I 200423 11:59:23 extract_industry_status:36] []
+[I 200423 11:59:23 extract_industry_status:35] 3
+[I 200423 11:59:23 extract_industry_status:36] ['民爆行业：素有“能源工业的能源，基础工业的基础”的称谓，其下游连接着采矿、冶金、交通、水利、电力、建筑和石油等多个领域，尤其在基础工业、重要的大型基础设施建设领域中具有不可替代的作用，是一个重要和特殊的行业门类。民爆产品的生产和销售实行许可证制度，因此民爆行业存在一定的进入壁垒，开放程度有限，竞争相对温和，但其近可向爆破服务延伸，远可向军工、新兴产业等延伸，仍具有一定的发展空间。', '公司是中国民爆行业的优势企业，通过近年来的前瞻布局，已基本完成未来民爆需求最旺盛区域的产业与市场布局，公司将继续推进爆破业务的可持续发展，不断巩固在民爆产业的行业地位。2018年，公司生产总值位列行业第四位。', '锂行业：与新能源汽车行业紧密相关，新能源汽车行业的迅猛发展，将极大激发未来对电池级锂产品的需求，带动和促进锂行业的发展。2019年3月，国家四部委联合发布《关于进一步完善新能源汽车推广应用财政补贴政策的通知》，对新能源乘用车、客车、货车的补贴标准和技术要求做了新的规定。政策的收紧短期来看对市场需求产生一定的影响，但长远来看着眼于我国新能源汽车未来技术的提升，有利于促使我国新能源汽车逐步完善技术，促进新能源汽车市场格局的建立。公司结合上游资源保障和下游销售渠道的拓展情况，将通过扩能建设快速实现锂产业的做大做强，将公司打造成具有全球影响力的锂盐供应商。']
+[I 200423 11:59:24 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:24 extract_industry_status:35] 1
+[I 200423 11:59:24 extract_industry_status:36] ['近几年肝素行业需求稳定增长，受到肝素粗品价格上涨的推动，肝素钠原料药平均价格2018年继续保持上涨，行业呈现量价齐升的态势。公司作为全球主要的肝素钠原料药供应商，依靠严格而有效的质量管理体系，高质量的产品和强大的供应能力，保持在全球肝素原料药行业的领先地位。报告期内，公司建立肝素全产业链运营体系，天道医药的依诺肝素钠制剂已在波兰、德国、英国、意大利、西班牙等欧洲主要国家开始销售，未来将开拓更多欧洲国家市场，持续扩张欧洲市场份额。除欧美地区以外，公司还将开拓其他有价值的国际市场。']
+[I 200423 11:59:24 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:24 extract_industry_status:35] 0
+[I 200423 11:59:24 extract_industry_status:36] []
+[I 200423 11:59:24 extract_industry_status:35] 0
+[I 200423 11:59:24 extract_industry_status:36] []
+[I 200423 11:59:24 extract_industry_status:35] 0
+[I 200423 11:59:24 extract_industry_status:36] []
+[I 200423 11:59:24 extract_industry_status:35] 0
+[I 200423 11:59:24 extract_industry_status:36] []
+[I 200423 11:59:27 utils:37] download cost time: 0:00:02.562146
+[I 200423 11:59:27 utils:52] get annual report count: 10
+[I 200423 11:59:27 extract_industry_status:35] 0
+[I 200423 11:59:27 extract_industry_status:36] []
+[I 200423 11:59:27 extract_industry_status:35] 3
+[I 200423 11:59:27 extract_industry_status:36] ['公司成立于1995年，是一家集建筑装饰设计与施工及物联网平台、新材料研发与应用于一体的综合性企业集团，是国家级高新技术企业。', '根据中装新网发布的“2016-2017年度中国建筑装饰行业综合数据统计结果”，公司荣登榜单装饰类第六名、幕墙类第二十五名、设计类第二十八名。公司连续十九年荣获“广东省守合同重信用企业”，并获“中国‘重质量 守诚信’示范企业”、“2017年度中国建筑装饰杰出酒店空间设计机构”、“2017年度中国建筑装饰杰出公共空间设计机构”、“第八届中国国际空间设计大赛—中国建筑装饰设计奖（银奖）”、“广东企业500强”、“广东服务业100强”、“2018年度履行社会责任杰出企业”、“2018深圳500强企业”、“2018年度万科A级供应商”、“万科十年长期合作奖”等荣誉。在新兴业务领域，公司子公司奇信智能获得“2017年度全国智能建筑综合实力50强企业”、“2018年度中国智能产业十佳技术创新企业”、“第二十届中国国际高新技术成果交易会优秀产品奖”、“2018粤港澳大湾区十大卓越创新力企业”、“麒麟杯2018年度最受用户喜爱的商用机器人 TOP10”、“自主创新新锐企业”等多项奖项。', '“奇信”品牌被认定为“深圳知名品牌”，公司荣获“2018 年度中心区最具影响力品牌企业奖”，“奇信集团”商标被认定为“广东省著名商标”。']
+[I 200423 11:59:27 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:27 extract_industry_status:35] 0
+[I 200423 11:59:27 extract_industry_status:36] []
+[I 200423 11:59:27 extract_industry_status:35] 0
+[I 200423 11:59:27 extract_industry_status:36] []
+[I 200423 11:59:27 extract_industry_status:35] 16
+[I 200423 11:59:27 extract_industry_status:36] ['1、医药工业', '医药行业是我国国民经济的重要组成部分，随着我国新医改政策的实施，人们对健康的重视程度不断提高，在推进健康中国的实施过程中，医药市场需求随着医疗保险覆盖率及国民经济能力的提升而不断扩大。同时，随着医疗卫生模式从以治疗为主向以预防为主转变、医养结合推进等，使得我国医药行业发展空间巨大，总体趋势呈快速增长，带来更多、更广阔的新市场空间。', '2018年是“十三五”深化医药卫生体制改革规划发布后的具有里程碑意义的一年，也是完成医改阶段性目标任务的关键一年，在这一年国家层面和地方层面各类医药行业改革政策密集发布，据有关统计，2018年国家层面共发布了200余份医药行业相关的政策文件。国家“十三五”规划指明了未来健康政策和产业的发展原则，也将给医药大健康产业带来前所未有的发展机遇。', '大健康产业迎来政策、理论、技术及产业机遇，云计算、物联网、大数据、人工智能的时代，让大健康产业从过去传统的低端制造向智能化制造的方向发展。传统与新锐、科技与人文、智能与匠心正在变革中共振，拓展着医药行业向上的空间，未来中国将会成为全球健康产业的第一大市场。在新的指导思想方针下，医药行业步入了新的时代，走向更加精细化、效率化的发展阶段。', '陕西必康经过22年的发展和沉淀，已位居我国制药企业前列。2018年荣获陕西省民营经济转型升级示范企业、2018陕西“百强企业”称号，名列医药类第3名。', '2、医药商业', '医药商业是连接上游医药生产企业和下游医疗机构、零售终端的重要环节。医药商业通过规模化、专业化、现代化的物流配送体系，可以大大降低医药流通环节的成本，提高了流通效率，保障了人民的用药需求，有着可观的社会效益。随着我国医药流通体制改革的深入，医药商业存在结构性机遇。', '百川医药坚持实施创新驱动战略、人才培育战略、品牌发展战略，推动企业迈上了规范化、健康化、快速化发展的轨道。百川医药作为区域知名医药商业公司，经营业务覆盖豫、鲁、苏、皖周边地区300公里左右的各商业公司及各医疗单位，终端渗透力强、覆盖面广、配送能力强，经营范围广，品种结构全，是区域唯一一家具有毒麻药品经营资质的商业公司，连续五年蝉联河南省民营企业百强榜和全国医药流通行业百强之列，为公司在医药商业领域的布局取得了良好的开端。', '润祥医药位列河北省省内医药商业物流前3位。业务范围覆盖河北省全省，其中医药商业380多家，连锁140多家，单体药房900多家，县级以上医院280多家，乡镇卫生院251家，村诊室3450多家，社区医院220家，业务延伸至山西、山东、内蒙、北京、天津等地。', '3、新能源、新材料行业', '报告期内，受新能源汽车政策变动调整、行业新增产能释放、市场竞争加剧等因素影响，锂电材料六氟磷酸锂产品价格持续下调，且已逼近企业盈亏线，后因主要原材料氢氟酸涨价引起阶段性微幅上涨，总体而言对产品的利润贡献率产生了较大影响。随着国产化竞争的加剧，高端紧缺、低端过剩仍然是目前主要的矛盾，预计未来几年六氟磷酸锂行业市场将迎来整合期。随着下游需求逐步恢复，六氟磷酸锂的价格有望企稳回升。', '高强高模聚乙烯纤维产品的应用广泛，是支撑高技术产业发展的重要新材料，是现代国防必不可缺的战略物资，也是国家重点扶持和鼓励发展的对象之一，目前正处于快速发展期，未来的市场前景广阔。', '九九久科技在高强高模聚乙烯纤维材料研发和锂电池电解质领域，与国内同行相比，具有先行研发优势、技术优势和明显的产能优势，位居同行业前列。九九久科技与其他企业共同起草了六氟磷酸锂产品的国家行业标准，生产的六氟磷酸锂通过ISO/TS16949体系认证，被江苏省科技厅认定为江苏省高新科技产品，获得江苏省优秀新产品金奖，江苏省科学技术三等奖，第十九届中国国际工业博览会新材料产业展优秀参展产品二等奖。九九久科技是超高分子量聚乙烯材料产业技术创新战略联盟常务理事单位，生产的高强高模聚乙烯纤维获得德国STANDARD 100 by OEKO-TEX检测认证，被江苏省科技厅认定为江苏省高新技术产品。', '4、药物中间体行业', '受整体宏观经济形势、行业市场需求及安全环保政策等因素影响，化工行业产品近年来发展形势较为混乱，市场景气指数也参差不齐，周期性波动较为明显。', '九九久科技在医药中间体和农药中间体方面具有很强的研发能力，产品工艺先进，技术优势明显，在同行业中处于领先地位。九九久科技及其控股子公司天时化工与沈阳化工研究院有限公司共同负责起草了三氯吡啶醇钠、苯甲醛、5,5-二甲基海因等产品的国家行业标准。九九久科技生产的药物中间体产品质量均高于同行业标准，并制订有自己的企业标准。7-ADCA、5,5-二甲基海因、苯甲醛、三氯吡啶醇钠均被江苏省科技厅认定为江苏省高新技术产品，其中7-ADCA、苯甲醛还被认定为国家重点新产品，三氯吡啶醇钠被认定为江苏省优秀新产品。']
+[I 200423 11:59:27 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:28 extract_industry_status:35] 0
+[I 200423 11:59:28 extract_industry_status:36] []
+[I 200423 11:59:28 extract_industry_status:35] 0
+[I 200423 11:59:28 extract_industry_status:36] []
+[I 200423 11:59:28 extract_industry_status:35] 0
+[I 200423 11:59:28 extract_industry_status:36] []
+[I 200423 11:59:28 extract_industry_status:35] 0
+[I 200423 11:59:28 extract_industry_status:36] []
+[I 200423 11:59:28 extract_industry_status:35] 0
+[I 200423 11:59:28 extract_industry_status:36] []
+[I 200423 11:59:30 utils:37] download cost time: 0:00:02.292131
+[I 200423 11:59:30 utils:52] get annual report count: 10
+[I 200423 11:59:30 extract_industry_status:35] 5
+[I 200423 11:59:30 extract_industry_status:36] ['（1）行业发展状况', '参见“经营情况讨论与分析”中的“九、公司未来发展展望”相关内容。', '（2）公司的行业地位', '公司是换向器龙头企业，换向器产销量全球第一，连续四届（8年）被博世授予“全球优秀供应商”（本行业唯一获此殊荣的企业），连续8年被评为“广东省制造业100强”、“广东省民营企业100强”，2018年被评为“广东省500强企业”。', '公司专注精密零组件的研发和生产，瞄准国际知名企业，定位中高端市场，经过多年的积淀，通过引进吸收和自主创新相结合，公司在产品设计、模具开发、工艺水平、生产设备、产品质量和人才储备等方面具有明显优势，逐渐成为全球行业强有力的竞争者，是全球换向器行业龙头企业，近年来公司保持换向器竞争优势的同时，横向拓展了应用于新能源汽车动力电池系统、驱动电机、电控系统、汽车轻量化、智能驾驶化以及航空航天等领域的关键核心零部件产品，已获得客户的广泛认可，市场逐步扩大。']
+[I 200423 11:59:30 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 7
+[I 200423 11:59:31 extract_industry_status:36] ['1、行业发展现状', '随着经济发展、人口增长、老龄化进程加速，医疗保障水平的不断提高，全球医药市场近年来持续快速增长，根据 IQVIA1 统计数据显示，近十年全球的医药市场销售额呈现逐年增长的态势。根据国家统计局公布数据，2018年医药制造业规模以上企业实现主营业务收入23,986.3亿元，较上年同期增长12.6%，增速较上年提高 0.1 个百分点；2018 年实现利润总额 3,094.2 亿元，较上年同期增长 9.5%，增速较上年同期下降8.3个百分点。同时根据财政部公布的2018年财政收支情况：2018年全国一般公共预算中，医疗卫生与计划生育支出1.5万亿元，同比增长8.5%。2004-2017年，诊疗人次从39.9亿人次增长到81.8亿人次，居民人均就诊次数由 3.0 次增加到 5.9 次，入院人数从 6,676 万人增长到 24,446 万人，住院率由5.0%增加到17.6%；医药行业发展持续稳定向好。', '中药作为我国优秀的文化资源、具有原创优势的科技资源、潜力巨大的经济资源、独特的卫生资源、和重要的生态资源，在医药行业发展中发挥着重要作用。根据工业和信息化部的统计，我国中成药制造和中药饮片加工行业规模以上企业主营业务收入从2013年的6,324.40亿元增长至2016年的8,653.41亿元，年均复合增长率11.02%；2017年1-9月营业收入达到了6,140.73亿元。根据2016年2月26日国务院发布的《中医药发展战略规划纲要（2016—2030年）》，规划到2020年中药工业总产值占医药工业总产值30%以上，中药产业成为国民经济重要支柱之一。在基药制度推行的政策背景下，我国中药行业发展呈现出较强的抗经济周期特征。', '2018年，中国医药产业政策接连出台，从《药品管理法》的修订，到“两票制”的全面实施、肿瘤药品价格谈判机制的实施、4+7带量采购试点的实施，再到2018版基药目录扩容、仿制药一致性评价持续推进、仿制药替代原研药等都在深刻影响着中国医药产业进程。展望 2019 年，医药行业将加速进行产业结构调整和产业升级，减少低端供给和无效供给，研发导向，鼓励创新，审评审批加速，医药企业格局将不断发生变化。', '2、公司所处行业地位', '公司所处的行业为医药制造业。主要业务为中药材种植、中成药的研发、生产与销售，同时涵盖化学制剂、中药饮片、保健大健康产品等多个细分领域，经过 20 余年的发展，公司已经在骨伤风湿类、心脑血管类、肝胆类、儿科类等中成药用药领域占据一定的行业地位。品牌与品种优势突出，是陕西省主要的医药企业之一。先后被国家扶贫办评为“国家扶贫龙头企业”、全国“万企帮万村”精准扶贫行动先进民营企业、被国家工商总局命名为“全国重合同守信用单位”，被陕西省委、省政府评为“陕西省先进集体”、“五一劳动奖状”、“优秀民营企业”、“守合同重信用企业”、“西部大开发突出贡献奖”等，被省级有关部门评为“陕西省诚信企业”、“陕西省质量工作先进单位”、“陕西省农业产业化龙头企业”、“陕西省创新型企业”、“高新技术企业”、“科技示范企业”等荣誉称号。', '独家品种是中成药制造企业的一大竞争优势。公司凭借主导产品盘龙七片、金茵利胆胶囊等独家品种在全国范围内，尤其是西部和中南部地区，具有较强的竞争力。盘龙七片、盘龙七药酒、三七伤药片和金茵利胆胶囊、克比热提片等多次被评为“陕西省名牌产品”，“盘龙”牌商标四次被认定为“陕西省著名商标”。']
+[I 200423 11:59:31 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:31 extract_industry_status:35] 0
+[I 200423 11:59:31 extract_industry_status:36] []
+[I 200423 11:59:32 extract_industry_status:35] 1
+[I 200423 11:59:32 extract_industry_status:36] ['目前公司已发展成为集智能电气开关生产制造、创新科技软件技术开发、金融服务业务等于一体的现代化企业集团。经过十余年的发展，公司已在国内永磁开关细分行业中处于引领地位。2018年，在国家积极推进供给侧结构性改革，着力化解过剩产能的宏观环境下，公司在加快转型升级，优化产品结构，淘汰落后产能，通过创新驱动、推进产业结构调整稳步提升公司综合竞争实力；另外，公司积极深入贯彻国家对金融业“脱虚向实”的指导方针，融入实体经济运行，形成信息流、实物流、资金流、信用流等多流合一。未来，公司将继续围绕三大业务板块，广泛吸收尖端人才、整合行业优质资源，逐步打造具有融钰特色的、基于产业场景的创新科技生态圈，公司将迎来一个崭新的发展局面。']
+[I 200423 11:59:32 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:34 utils:37] download cost time: 0:00:01.989114
+[I 200423 11:59:34 utils:52] get annual report count: 10
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:34 extract_industry_status:35] 2
+[I 200423 11:59:34 extract_industry_status:36] ['公司较早布局智能穿戴产品，在智能硬件设计以及精密制造方面形成一定的先发优势。2014年，公司的云平台与数据中心开始投入商业运行，能够为客户提供包括数据存储与分析在内的数据服务，是业内少数能提供软件、硬件、云计算一体化解决方案的企业。2015年，公司引进了包括“香港首批优才计划入选者”在内的行业顶级人才，强化了该领域的人才优势；2016年，公司与飞利浦在医疗级智能穿戴产品方面进行了深度合作；最近两年来，公司在该细分市场的市占率进一步提升，强化了公司在智能穿戴设备领域的领先优势。', '第四节  经营情况讨论与分析']
+[I 200423 11:59:34 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:34 extract_industry_status:35] 2
+[I 200423 11:59:34 extract_industry_status:36] ['公司继续坚持加大研发投入，确保技术领先，秉承 “以高差异化为客户创造高附加值，以高性价比产品扩大市场销量 ”的技术产品开发思路，坚持技术创新，继续在国内轮胎行业引领市场需求，不断扩大产品领先优势，提升品牌价值，同时利用公司的技术优势，积极参与国际高端轮胎市场竞争，以实现创世界品牌的目标。', '公司正在建立环保搬迁转型升级绿色轮胎智能化（工业 4.0）示范基地，通过建立工艺标准化、设计模块化、生产精益化、经营单元化的基础，集成全球领先的信息通讯、电子控制、智能装备技术和资源，打造信息化、智能化、自动化的世界级轮胎生产基地，实现产品订制化、加工自动化、企业互联化、制造智能化，达到高效率、高质量、高能效的目的。进一步推动公司研发技术的创新和提升，实现产品的 “三高一低” ：第一，加大高差异化、自有知识产权专利技术的研发和生产应用；第二，以高附加值产品扩大市场份额，逐步提升公司在国内轮胎行业的地位，使高附加值产品成为公司利润主要贡献；第三，敢于参与国际轮胎高端市场的竞争，推动公司产品高端化水平；第四，通过生产和管理的信息化、智能化、自动化，提升生产效率和产品质量，降低产品退赔率。另外，公司将进一步以开放的态度，加强与国际机构技术合作，加快国际化进程，探索海外建厂实现全球布局，提升双星品牌的国际影响力。']
+[I 200423 11:59:34 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:34 extract_industry_status:35] 0
+[I 200423 11:59:34 extract_industry_status:36] []
+[I 200423 11:59:35 extract_industry_status:35] 0
+[I 200423 11:59:35 extract_industry_status:36] []
+[I 200423 11:59:35 extract_industry_status:35] 0
+[I 200423 11:59:35 extract_industry_status:36] []
+[I 200423 11:59:37 utils:37] download cost time: 0:00:02.072118
+[I 200423 11:59:37 utils:52] get annual report count: 10
+[I 200423 11:59:37 extract_industry_status:35] 0
+[I 200423 11:59:37 extract_industry_status:36] []
+[I 200423 11:59:37 extract_industry_status:35] 0
+[I 200423 11:59:37 extract_industry_status:36] []
+[I 200423 11:59:37 extract_industry_status:35] 13
+[I 200423 11:59:37 extract_industry_status:36] ['1、旅游业务', '目前，我国旅游业处于平稳发展期，居民消费力提高、交通改善、互联网科技等推动旅游业不断发展。第十三届全国人民代表大会第二次会议政府工作报告首次提出“发展壮大旅游产业”，作为惠及民生的幸福产业、消费增长的重要拉动引擎和结构性改革的全面实施方向，旅游产业已成为国家战略及国民生活的重要组成部分。同时，旅游业已具备软硬兼备、融合度高、覆盖面广、拉动力强的综合特性，通过产业融合，“旅游+”已成为产业体系升级扩容的新动力。出境旅游方面，国家“一带一路”战略为出境游带来主题机遇，特别在居民收入稳步增长的背景下，大交通、签证、假期等便利因素影响下，我国出境旅游市场平稳发展。', '2018年，我国旅游业综合贡献9.94万亿元，对国民经济的综合贡献达11.04%，对全国就业综合贡献达10.29%。全年旅游总收入5.97万亿元，比上年同期增长10.5%；国内旅游市场为55.39亿人次，收入为5.13万亿元，比上年同期分别增长10.8%、12.3%。2018年入境旅游人数为1.41亿人次，比上年同期增长1.2%；出境旅游市场为1.5亿人次，同比增长14.7%。', '（数据来源：2019年02月12日，文化和旅游部发布《2018年旅游市场基本情况》）', '当前，我国旅游市场消费需求逐步呈现个性化、多样化、体验化、深度化等典型特征，出境旅游注重品质旅游的特征与趋势也愈发显现，选择升级型、个性化的旅游产品，深度体验目的地的游客占比不断提升。为顺应旅游产业消费升级的发展趋势，公司继续致力于研发“新、奇、特、高”系列旅游产品，并推出“明智优选”私人订制子品牌，开发个性主题特色产品线路，取得了良好的市场反馈效果。中高端旅游产品的个性研发、特色主题设计及强有力的上下游渠道资源整合能力成为公司持续领跑行业龙头地位的强劲助推器。', '在“一带一路”的倡导下，中国不断加强与沿线国家的旅游合作，“一带一路”沿线国家已经成为中国出境游新的发力点，国民出境游目的地日趋多元化。国家旅游局指出，“十三五”期间，中国将为“一带一路”沿线国家输送1.5亿人次中国游客。公司自2015年开始深入发掘丝路沿线旅游资源，将其引入各个产品线，覆盖邮轮、高端团队游、主题旅游等业务。凯撒旅游于2016年推出的“46天环南太平洋寻梦之旅”，成为首个由旅行社独家包船、中国母港出发的环南太平洋航线，覆盖海上丝绸之路多个重要节点，成为“一带一路”发展战略在旅游领域的有力实践。', '2018年公司再次推出的“环游世界53天—南太平洋寻梦之旅”即将于2019年11月启航，产品覆盖海上丝绸之路多个重要节点，力争助力中国与南太平洋岛国旅游交流常态化，推进中国与南太岛国文化互通。', '2、航食、铁路配餐行业', '2018年，中国民航全行业完成运输总周转量1026.4亿吨公里、旅客运输量6.1亿人次，同比分别增长11.4%、10.9%。完成固定资产投资810亿元，新建、迁建运输机场9个，运输机场总数达235个。2019年民航发展主要预期指标是：运输总周转量1360亿吨公里、旅客运输量6.8亿人次，同比分别增长11.8%、11%。', '（数据来源：2019年1月7日，2019年全国民航工作会议）', '2018年，全国铁路行业固定资产投资完成8028亿元，其中国家铁路完成7603亿元；新开工项目26个，新增投资规模3382亿元；投产新线4683公里，到2018年底，全国铁路运营里程达到13.1万公里以上，其中高铁2.9万公里以上。客货运输方面，国家铁路完成旅客发送量33.2亿人、同比增长9.2%，其中动车组发送20.1亿人、同比增长16.8%。', '（数据来源：2019年1月10日，2019年铁路建设工作会议）', '民航客运及铁路客运正处于快速稳定发展和品质升级阶段，公司航食、铁路配餐业务的拓展将直接受益于民航客运与铁路客运的持续发展。']
+[I 200423 11:59:37 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:37 extract_industry_status:35] 0
+[I 200423 11:59:37 extract_industry_status:36] []
+[I 200423 11:59:37 extract_industry_status:35] 0
+[I 200423 11:59:37 extract_industry_status:36] []
+[I 200423 11:59:37 extract_industry_status:35] 27
+[I 200423 11:59:37 extract_industry_status:36] ['1. 行业市场概况', '由于发达国家生产外包比例持续提高，我国目前已成为全球医用敷料的生产基地。根据中国医药保健品进出口商会的统计，截至2015年，欧洲医用敷料产能外包已达90%左右，美国产能外包约为60%。我国医用敷料已经在国际市场上占据较高的外包市场份额。根据中国海关数据统计，2018 年我国医用敷料出口金额 26.08 亿美元，同比增长7.48%，较 2017', '年增长 4.51 个百分点，出口金额占进出口总额85.70%，出口金额占医疗器械总出口额的 11.04%，贸易顺差21.73 亿美元，顺差同比增加 5.56%。', '根据医保商会数据统计，2018 年我国医用敷料出口市场的显著特点是价格的增长，全年出口平均价格增长 3%以上，新兴市场价格普遍增长迅速，欧洲、北美洲和亚洲市场价格小幅增长。2018 年，我国医用敷料最大出口市场是欧洲，出口金额9.17 亿美元，出口金额同比增长 4.11%。第二大医用敷料出口市场是北美洲，出口金额达到了 8.50 亿美元，出口金额同比增长 9.77%。第三大医用敷料出口市场亚洲，出口金额达到了 5.09 亿美元，出口金额同比增长7.41%。', '随着全球性的人口老龄化问题日益突出和由此带来的溃疡、褥疮等疾病病人的增长，及随着社会的进步和人们生活质量的提高，患者对伤口愈合、舒适度等要求也相应提高，全球医用敷料行业市场规模平稳增长。根据Freedonia（Freedonia成立于1985年，总部位于美国，是全球商业调查领域中的领先企业，在市场预测、竞争策略、市场占有率分析等方面提供商业信息，其研究报告经常被国际重要媒体引用）的统计及预测，2015年全球绷带及医用敷料市场规模达188.4亿美元，较2010年增长30.65%。预计到2020年全球绷带及医用敷料市场规模将达到244.00亿美元，2025年则可达313.00亿美元。', '全球绷带及医用敷料市场规模及预测（百万美元）', '数据来源：Freedonia，上图医用敷料包含绷带及高端医用敷料产品', '2. 行业发展趋势', '（1）医用敷料市场内外需求将趋于平衡', '目前，我国大部分医用敷料生产企业仍以出口传统医用敷料为主，其绝大部分销售收入也多来自海外市场。然而，随着国内医用敷料市场需求的日益扩大，以及具有较低劳动力成本的东盟国家如越南、泰国等介入国际传统医用敷料市场，国内医用敷料生产企业将趋向于重新将视野转回本土市场，通过平衡国内销售量和海外市场出口量来防范和化解海外市场波动风险。同时，随着我国医疗体制改革的深入，医疗器械监管体系的逐步建立以及医用敷料行业标准的出台及完善，将为我国医用敷料行业提供一个健康、有序、规范的发展环境，为目前仍以出口为主的企业特别是业内领先企业进入国内市场创造了有利的条件。', '（2）行业集中度将进一步提高', '根据中国医药保健品进出口商会的统计，2018年我国有超过5,500家企业从事医用敷料产品的出口，出口企业数量较去年增加1000余家左右，但大部分为规模较小的小型企业。2017年行业前10家企业出口金额累计6.6亿美元，金额占比27.1%；2018年行业前10企业出口金额累计 6.96 亿美元，占比 26.68%，较去年 6.6 亿美元出口金额，增长幅度达5.45%。头部企业仍然具备强大的竞争优势。', '造成我国医用敷料行业准入门槛低的重要原因是相关行业标准的滞后和限制。随着行业标准的不断完善以及行业监管体系的建立，行业准入门槛将相对提高，业内领先企业的竞争优势将越发突出，劣势企业将逐渐被淘汰，行业集中度将得到提高。同时，随着国内劳动力成本、运输成本的不断攀升，行业制造成本上升压力加大，拥有规模化生产运营能力的企业才能有效控制成本，并不断占领市场高地。此外，新型高端敷料将是未来行业技术发展趋势，而高端敷料的研发及临床试验需投入大量的人力、物力和财力，只有行业领先企业才能利用自身的产业运作能力和品牌影响力获得发展所需的资金、高端研发人才等稀缺资源。因此，行业市场份额将会逐步向业内领先企业集中，行业集中度也将进一步提高。', '3. 行业周期性、季节性特点', '（1）行业周期性', '医用敷料是重要医用卫生材料，无论经济发展状况如何，为保障人们健康生活，行业的需求仍保持旺盛，呈现一定的刚性需求特征，行业受宏观经济波动影响较小。因此，医用敷料行业无明显的周期性。', '（2）行业季节性', '在需求方面，因医用敷料主要应用于伤口护理、患者护理、手术及外科等方面，终端消费者一年四季均保持稳定需求，无明显季节性。在生产方面，受我国传统春节假期的影响，多数医用敷料生产企业在春节期间停产放假，期间产量稍会减少。', '4. 行业地位', '公司是国内医用敷料行业的龙头企业，具备较强的竞争优势。我国医用敷料行业的主要生产商及出口商主要包括奥美医疗、稳健医疗、振德医疗等。公司不断推进医用敷料领域的产品创新、工艺升级及产业链深度整合，在产品性能与质量、产品附加值与市场开拓等方面具有较为突出的优势，是中国医用敷料行业重要的生产商和出口商。据中国医药保健品进出口商会的统计，公司医用敷料产品连续十年出口第一。2016年、2017年和2018年，我国医用敷料出口企业前5名的情况如下：', '2016年  2017年  2018年', '排名  企业名称  排名  企业名称  排名  企业名称', '1  奥美医疗用品股份有限公司  1  奥美医疗用品股份有限公司  1  奥美医疗用品股份有限公司', '2  稳健医疗用品股份有限公司  2  稳健医疗用品股份有限公司  2  稳健医疗用品股份有限公司', '3  振德医疗用品股份有限公司  3  振德医疗用品股份有限公司  3  振德医疗用品股份有限公司', '4  江苏省健尔康医用敷料有限公司  4  合肥普尔德医疗用品有限公司  4  合肥普尔德医疗用品有限公司', '5  施洁医疗技术（上海）有限公司  5  施洁医疗技术（上海）有限公司  5  施洁医疗技术（上海）有限公司']
+[I 200423 11:59:37 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:38 extract_industry_status:35] 0
+[I 200423 11:59:38 extract_industry_status:36] []
+[I 200423 11:59:38 extract_industry_status:35] 2
+[I 200423 11:59:38 extract_industry_status:36] ['公司作为国内信息安全行业的领先企业之一，报告期内，公司的整体业务规模稳步增长，公司在业内的知名度和影响力不断提升。同时，随着公司“大安全”产业发展战略的推进及“智慧安全”理念的深化，公司在产品和业务上的差异化优势以及在研发创新上的技术优势逐步显现，云安全运营和工控安全业务取得显著增长，市场竞争力得到较大提升，已经发展成为我国智慧安全领导者。', '此外，公司收购的中经电商及汇通宝是国内领先的电子商务推广运营服务商，业务模式独特，品牌知名度及影响力均处于行业领先地位；公司收购的华炜科技是电磁安防领域的龙头厂商之一，在军工、高铁等业务领域具备较强的核心竞争力，并积极向能效管控和立体安检领域发展；公司收购的满泰科技是国内领先的水利水电综合自动化及信息化整体解决方案提供商，可提供成熟的工控综合自动化及工控系统安全解决方案。']
+[I 200423 11:59:38 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:38 extract_industry_status:35] 0
+[I 200423 11:59:38 extract_industry_status:36] []
+[I 200423 11:59:38 extract_industry_status:35] 0
+[I 200423 11:59:38 extract_industry_status:36] []
+[I 200423 11:59:40 utils:37] download cost time: 0:00:01.992114
+[I 200423 11:59:40 utils:52] get annual report count: 10
+[I 200423 11:59:40 extract_industry_status:35] 4
+[I 200423 11:59:40 extract_industry_status:36] ['经过近二十年的发展，在 PET 瓶液体包装机械领域，目前公司生产规模、市场占有率均在国内处于领先地位，建有国家级研发中心，是国家火炬计划重点高新技术企业。', '公司创新研发了四项国家重点新产品：RJM系列全自动吹瓶机、CPXX系列全自动高速PET瓶吹瓶机、全自动轻量化瓶吹灌旋一体机、高粘度流体灌装一体化成套设备以及五项国家高新技术产品：全自动高速酱油灌装机、茶果蔬汁热灌装生产线、PET 瓶饮料高速热灌装生产线、PET 瓶高速吹瓶机、含气灌装机。拥有目前行业领先水平的全自动高粘度灌装技术（应用于酱油、食用油、日化液体等行业）、全自动吹瓶灌装旋盖一体机技术（高速第五代吹瓶机）、含气灌装压盖设备技术、回转式全自动粘流体灌装封盖机技术、全自动吹贴灌旋四合一一体机等自主研发的高精尖技术。在工业自动化应用领域，公司是国内较为成熟的集成生产商之一，目前已经形成国内系列齐全、性能先进的并联机器人系列，操作简单、安全性好、产品技术附加值较高。', '公司具有丰富的国内、国际液态食品与饮料包装机械整线工程总包管理经验，在全球完成了约 500 个大型交钥匙工程项目，是目前国际上少数能从 PET 粒料到成品的包装整线供应商之一。基于多年来在包装工程上累积的优势，公司具有丰富的服务终端客户与集成商的应用经验，通过良好的服务体系，能够帮助客户实现高效率、高柔性的工业生产。', '同时，公司注重设备与食品安全，已经通过欧洲 CE 认证，美国 UL 认证，是 ISO9001 认证的企业，并获得了两化融合贯标认证。自2009年公司新检测中心投入使用后，该中心是国内行业迄今为止检测手段最先进、检测设备最齐全、检测项目最齐备的检测中心之一。公司为了保持行业领先地位，投入重金打造行业领先的“三大中心”——机械加工中心、品控检测中心和研发中心，拥有雄厚的技术研发实力和自主创新能力，为公司未来发展打造坚实基础。']
+[I 200423 11:59:40 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:40 extract_industry_status:35] 0
+[I 200423 11:59:40 extract_industry_status:36] []
+[I 200423 11:59:40 extract_industry_status:35] 6
+[I 200423 11:59:40 extract_industry_status:36] ['韵达股份作为国内快递行业第一梯队的领军企业之一，将网络信息平台、自动化智能化设备与业务深度融合，通过自营转运枢纽、改善货品结构、实施加盟商自跑等措施，实现了快件时效、人均效能、运营效率和服务质量等管理指标的持续提升，运营成本和全程时效有效降低。', '业务增长上，公司快递增速可比公司第一。2018年，在行业平均增速放缓的环境下，公司业务量同比增长48%，高出行业平均增速近22个百分点，增速可比公司最快。', '票件规模上，公司市场份额位居行业第二。2018年，公司业务量达到69.85亿件，日均票件量已达1900万件以上，市场占有率达13.77%，票件保有量和市场份额位居行业第二。', '服务水平上，主要服务指标可比公司最佳。根据国家邮政局相关统计，2018年公司有效申诉率指标月均值为0.77，连续两年可比公司最优；时效方面，根据国家邮政局《关于2018年快递服务时限准时率测试结果的通告》，公司2018年快递服务全程时效指标紧随顺丰、EMS，连续两年可比公司最快；客服方面，根据中国消费者协会发布的《2018重点服务领域部分企业服务热线体验式调查报告》，在针对快递行业所设计的体验任务——“下单及取消已下单”调查中，韵达服务热线体验任务完成率仅次于顺丰、EMS，可比公司最好。', '品牌价值上，“韵达”美誉度处行业前茅。全球领先的调研机构Millward Brown2018年5月发布的“BrandZ2018最具价值中国品牌100强”榜单中，韵达以26.03亿美元的品牌价值在全国排名第三十六位，在行业可比公司中位列第三。', '另外，公司现为中国快递协会副会长单位、上海市快递行业协会副会长单位，历年来多次荣获奖项荣誉，包括：荣获中国邮政快递报社授予的“2018中国快递科技创新奖”、“2018中国快递年度发展奖”、“2018中国快递社会责任大奖”，中国交通运输协会授予的“2018中国十佳物流企业”，中国交通运输协会授予的“2018中国物流企业品牌价值百强”，上海市邮政管理局授予的2016-2017年度上海市快递行业“文明单位”，多次荣获国家邮政局授予的“邮政行业统计工作先进企业”、“全国快递旺季服务保障先进企业”称号，2017年荣获中国邮政快递报社授予的中国快递“最佳末端创新”等荣誉。']
+[I 200423 11:59:41 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:41 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:41 extract_industry_status:35] 0
+[I 200423 11:59:41 extract_industry_status:36] []
+[I 200423 11:59:43 utils:37] download cost time: 0:00:02.224128
+[I 200423 11:59:43 utils:52] get annual report count: 10
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 6
+[I 200423 11:59:44 extract_industry_status:36] ['（1）行业发展情况', '国家统计局发布的数据显示，2018年度国内生产总值初步核算为90.03万亿，同比增长6.6%，国内经济保持平稳增长。根据奥维云网统计数据，2018年度，全国油烟机市场规模为345.8亿元，同比下降16.6%，其中线上规模为86.1亿元，同比增长1.1%，线下规模为259.7亿元，同比下降21.1%；燃气灶市场规模为190.6亿元，同比下降11.5%，其中线上规模为50.4亿元，同比增长7.2%，线下规模为140.2亿元，同比下降16.7%；燃气热水器市场规模为330.8亿元，同比下降3.5%，其中线上规模为76.3亿元，同比增长17.6%，线下规模为254.6亿元，同比下降8.4%；新品类方面，洗碗机市场规模为56.0亿元，同比增长28.1%，嵌入式电烤箱市场规模为34.9亿元，同比增长19.3%，嵌入式电蒸箱市场规模为33.2亿元，同比下降2.4%。由于厨电行业家装前装属性较强，受到房地产下行的影响而面临阶段性调整。但线上渠道仍保持增长，燃气热水器线上规模同比增速较高，以洗碗机为代表的嵌入式产品保持较高速增长。', '根据奥维云网数据显示，2018年油烟机在销品牌数量为213个，相比2017年新增28个，退出49个；燃气灶在销品牌数量为247个，相比2017年新增41个，退出37个；热水器在销品牌数量为218个，相比2017年新增30个，退出36个。行业品牌集中度进一步提升，龙头企业市场份额仍存在提升空间。', '（2）所处行业地位', '公司创立于1992年，经过27年的发展与积累，已成为行业内知名品牌及领先企业，公司于2004年在深圳证券交易所上市，是厨电行业内第一家上市公司。公司油烟机、燃气灶销售额连续多年位于行业前三，燃气热水器、电热水器、洗碗机、嵌入式消毒柜、嵌入式电蒸箱、嵌入式电烤箱均为行业前十，多款畅销产品进入行业TOP10。根据中怡康零售监测数据，截止2018年末，公司油烟机零售额、零售量的市场份额分别为10.12%、8.19%，燃气灶零售额、零售量的市场份额分别为13.05%、9.25%，燃气热水器零售额、零售量的市场份额分别为4.95%、4.49%。（中怡康零售监测数据只覆盖KA渠道，不统计自有渠道。截至2018年末，公司KA渠道进店率为66.53%。)', '公司同时担任油烟机和燃气灶国家标准主笔单位，完成《家用燃气灶具》（GB 16410－2007）、《吸油烟机》（GB/T 17713－2011）两项国家标准的制定，以输出标准的方式促进行业发展。同时凭借在燃烧领域的突出优势，公司成为2008年北京奥运会祥云火炬独家供应商并为国内外24项重大赛事研制火炬。2018年度，公司获得“中国燃气具行业十强企业”“中国燃气灶具十强企业”“中国燃气热水器十强企业”“中国十大燃气壁挂炉品牌”“电热水器行业十强品牌”“洗碗机行业五强品牌”“中国轻工业百强企业”“中国五金制品协会优秀企业”等荣誉。']
+[I 200423 11:59:44 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:44 extract_industry_status:35] 0
+[I 200423 11:59:44 extract_industry_status:36] []
+[I 200423 11:59:45 extract_industry_status:35] 0
+[I 200423 11:59:45 extract_industry_status:36] []
+[I 200423 11:59:45 extract_industry_status:35] 4
+[I 200423 11:59:45 extract_industry_status:36] ['（一）集成电路业务（芯片业务）', '公司的集成电路设计及应用业务处于国内领先位置，具有CPU独立设计能力和复杂SoC芯片的设计能力。公司是“中国芯”开发应用的领先企业，并已经连续六年被授予“中国芯”最佳市场表现产品奖；是工信部“核高基”课题《国产嵌入式 CPU规模化应用》的牵头承担企业，核高基重大专项是国家在促进集成电路产业发展的重要布局，在推动着我国集成电路关键领域的产业化发展。公司的集成电路业务首先立足于在打印机行业的应用（耗材芯片、打印机主控SoC芯片）、继而逐步扩展为打印机行业之外的应用（如通用MCU、物联网等），公司有志于成为全球通用MCU设计解决方案的提供商。', '（二）打印机全产业链', '耗材芯片及打印机主控芯片处于全球细分行业领先的市场地位；打印机兼容耗材处于全球细分行业的龙头地位；奔图激光打印机处于中国信息安全打印机领先地位；利盟激光打印机处于全球中高端激光打印机领先地位。']
+[I 200423 11:59:45 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:46 utils:37] download cost time: 0:00:01.632093
+[I 200423 11:59:46 utils:52] get annual report count: 10
+[I 200423 11:59:46 extract_industry_status:35] 1
+[I 200423 11:59:46 extract_industry_status:36] ['公司专网通信产品质量稳定可靠，达到世界先进水平，得到客户的认可，竞争优势明显；拥有量子保密通信技术产业化产品，市场优势明显；公司与运营商合作，参与制订应急通信行业标准，充分发挥专网通信、智能指控终端、加密通信技术，结合卫星通信技术，打造应急通信端到端完整解决方案，技术优势明显；移动智能终端产品在业内认可度较高；通信光纤、光缆、通信硅管在行业内排名前列，是国内唯一纤、缆、管生产企业。']
+[I 200423 11:59:47 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:47 extract_industry_status:35] 0
+[I 200423 11:59:47 extract_industry_status:36] []
+[I 200423 11:59:48 extract_industry_status:35] 0
+[I 200423 11:59:48 extract_industry_status:36] []
+[I 200423 11:59:50 utils:37] download cost time: 0:00:02.000114
+[I 200423 11:59:50 utils:52] get annual report count: 10
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 0
+[I 200423 11:59:50 extract_industry_status:36] []
+[I 200423 11:59:50 extract_industry_status:35] 1
+[I 200423 11:59:51 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:54 utils:37] download cost time: 0:00:03.411195
+[I 200423 11:59:54 utils:52] get annual report count: 10
+[I 200423 11:59:54 extract_industry_status:35] 1
+[I 200423 11:59:54 extract_industry_status:36] ['公司是中国四大特钢企业集团之一，西部地区最大、西北地区唯一的特殊钢生产企业，特钢协会长单位。']
+[I 200423 11:59:54 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:54 extract_industry_status:35] 0
+[I 200423 11:59:54 extract_industry_status:36] []
+[I 200423 11:59:54 extract_industry_status:35] 0
+[I 200423 11:59:54 extract_industry_status:36] []
+[I 200423 11:59:54 extract_industry_status:35] 0
+[I 200423 11:59:54 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:55 extract_industry_status:35] 0
+[I 200423 11:59:55 extract_industry_status:36] []
+[I 200423 11:59:57 utils:37] download cost time: 0:00:02.078119
+[I 200423 11:59:57 utils:52] get annual report count: 10
+[I 200423 11:59:57 extract_industry_status:35] 0
+[I 200423 11:59:57 extract_industry_status:36] []
+[I 200423 11:59:57 extract_industry_status:35] 0
+[I 200423 11:59:57 extract_industry_status:36] []
+[I 200423 11:59:57 extract_industry_status:35] 0
+[I 200423 11:59:57 extract_industry_status:36] []
+[I 200423 11:59:58 extract_industry_status:35] 0
+[I 200423 11:59:58 extract_industry_status:36] []
+[I 200423 11:59:58 extract_industry_status:35] 0
+[I 200423 11:59:58 extract_industry_status:36] []
+[I 200423 11:59:58 extract_industry_status:35] 0
+[I 200423 11:59:58 extract_industry_status:36] []
+[I 200423 11:59:58 extract_industry_status:35] 2
+[I 200423 11:59:58 extract_industry_status:36] ['据 2018 年《福布斯》发布的“全球上市公司 2000 强”名单，格力电器位列 294 名，较去年上升 70位；据《财富》（中文版）和光辉国际联合发布的“2018年度最受赞赏的中国公司”榜单，格力电器位列总榜单第二名，居家电行业之首；据《福布斯》发布的“2018年全球最佳雇主”榜单，格力电器入围全球百强，排名第88位，在进入榜单的中国企业中位列第六；格力电器再次获得“CCTV十佳上市公司”殊荣。', '据2018年全球知名经济类媒体日本经济新闻数据，格力电器以21.9%的全球市场占有率位列家用空调领域榜首，超第二名7个百分点；据产业在线数据，格力家用空调产销量自1995年起连续24年位居中国空调行业第一，自2005年起连续14年领跑全球；据业内权威专业媒体《暖通空调资讯》数据，格力电器连续7年蝉联国内中央空调市场第一。']
+[I 200423 11:59:58 utils:106] save text true 1, save candidate code 0
+[I 200423 11:59:58 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:58 utils:68] 摘要 or 已取消, continue
+[I 200423 11:59:58 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 utils:37] download cost time: 0:00:02.055117
+[I 200423 12:00:00 utils:52] get annual report count: 10
+[I 200423 12:00:00 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 utils:68] 摘要 or 已取消, continue
+[I 200423 12:00:00 extract_industry_status:35] 0
+[I 200423 12:00:00 extract_industry_status:36] []
+[I 200423 12:00:00 extract_industry_status:35] 0
+[I 200423 12:00:00 extract_industry_status:36] []
+[I 200423 12:00:01 extract_industry_status:35] 0
+[I 200423 12:00:01 extract_industry_status:36] []
+[I 200423 12:00:01 extract_industry_status:35] 0
+[I 200423 12:00:01 extract_industry_status:36] []
+[I 200423 12:00:01 extract_industry_status:35] 0
+[I 200423 12:00:01 extract_industry_status:36] []
+[I 200423 12:00:30 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 12:00:30 base:881] Added job "tax_free" to job store "default"
+[I 200423 12:00:30 base:881] Added job "vat" to job store "default"
+[I 200423 12:00:30 base:881] Added job "bank_branch" to job store "default"
+[I 200423 12:00:30 base:881] Added job "security_branch" to job store "default"
+[I 200423 12:00:30 base:881] Added job "copyright" to job store "default"
+[I 200423 12:00:30 base:881] Added job "innovate" to job store "default"
+[I 200423 12:00:30 base:881] Added job "main_channel" to job store "default"
+[I 200423 12:00:30 base:881] Added job "main_production" to job store "default"
+[I 200423 12:00:30 base:881] Added job "market_hold" to job store "default"
+[I 200423 12:00:30 base:881] Added job "market_scale" to job store "default"
+[I 200423 12:00:30 base:881] Added job "property_scale" to job store "default"
+[I 200423 12:00:30 base:881] Added job "rank" to job store "default"
+[I 200423 12:00:30 base:881] Added job "sale_mode" to job store "default"
+[I 200423 12:00:30 base:881] Added job "trust" to job store "default"
+[I 200423 12:00:30 base:881] Added job "user_count" to job store "default"
+[I 200423 12:00:30 base:881] Added job "engineering" to job store "default"
+[I 200423 12:00:30 base:881] Added job "insurance" to job store "default"
+[I 200423 12:00:30 base:881] Added job "media" to job store "default"
+[I 200423 12:00:30 base:881] Added job "real_property" to job store "default"
+[I 200423 12:00:30 base:881] Added job "user_foundation" to job store "default"
+[I 200423 12:00:30 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 12:00:30 base:881] Added job "market_rank" to job store "default"
+[I 200423 12:00:30 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 12:00:30 base:881] Added job "industry_position" to job store "default"
+[I 200423 12:00:30 base:881] Added job "industry_layout" to job store "default"
+[I 200423 12:00:30 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 12:00:30 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 12:00:30 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 12:00:30 base:881] Added job "technique_trend" to job store "default"
+[I 200423 12:00:30 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 12:00:30 base:881] Added job "capacity" to job store "default"
+[I 200423 12:00:30 base:881] Added job "rd_plan" to job store "default"
+[I 200423 12:00:30 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 12:00:30 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 12:00:30 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 12:00:30 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 12:00:30 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 12:00:30 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 12:00:30 base:881] Added job "business_reputation" to job store "default"
+[I 200423 12:00:30 base:881] Added job "sales_network" to job store "default"
+[I 200423 12:00:30 base:881] Added job "industry_status" to job store "default"
+[I 200423 12:00:30 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 12:00:30 base:881] Added job "patent" to job store "default"
+[I 200423 12:00:30 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 12:00:30 base:881] Added job "product_function" to job store "default"
+[I 200423 12:00:30 base:166] Scheduler started
+[D 200423 12:00:30 base:940] Looking for jobs to run
+[I 200423 12:00:30 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 12:00:30 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 8159.167609 seconds)
+[I 200423 12:01:32 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 12:01:32 base:881] Added job "tax_free" to job store "default"
+[I 200423 12:01:32 base:881] Added job "vat" to job store "default"
+[I 200423 12:01:32 base:881] Added job "bank_branch" to job store "default"
+[I 200423 12:01:32 base:881] Added job "security_branch" to job store "default"
+[I 200423 12:01:32 base:881] Added job "copyright" to job store "default"
+[I 200423 12:01:32 base:881] Added job "innovate" to job store "default"
+[I 200423 12:01:32 base:881] Added job "main_channel" to job store "default"
+[I 200423 12:01:32 base:881] Added job "main_production" to job store "default"
+[I 200423 12:01:32 base:881] Added job "market_hold" to job store "default"
+[I 200423 12:01:32 base:881] Added job "market_scale" to job store "default"
+[I 200423 12:01:32 base:881] Added job "property_scale" to job store "default"
+[I 200423 12:01:32 base:881] Added job "rank" to job store "default"
+[I 200423 12:01:32 base:881] Added job "sale_mode" to job store "default"
+[I 200423 12:01:32 base:881] Added job "trust" to job store "default"
+[I 200423 12:01:32 base:881] Added job "user_count" to job store "default"
+[I 200423 12:01:32 base:881] Added job "engineering" to job store "default"
+[I 200423 12:01:32 base:881] Added job "insurance" to job store "default"
+[I 200423 12:01:32 base:881] Added job "media" to job store "default"
+[I 200423 12:01:32 base:881] Added job "real_property" to job store "default"
+[I 200423 12:01:32 base:881] Added job "user_foundation" to job store "default"
+[I 200423 12:01:32 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 12:01:32 base:881] Added job "market_rank" to job store "default"
+[I 200423 12:01:32 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 12:01:32 base:881] Added job "industry_position" to job store "default"
+[I 200423 12:01:32 base:881] Added job "industry_layout" to job store "default"
+[I 200423 12:01:32 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 12:01:32 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 12:01:32 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 12:01:32 base:881] Added job "technique_trend" to job store "default"
+[I 200423 12:01:32 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 12:01:32 base:881] Added job "capacity" to job store "default"
+[I 200423 12:01:32 base:881] Added job "rd_plan" to job store "default"
+[I 200423 12:01:32 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 12:01:32 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 12:01:32 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 12:01:32 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 12:01:32 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 12:01:32 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 12:01:32 base:881] Added job "business_reputation" to job store "default"
+[I 200423 12:01:32 base:881] Added job "sales_network" to job store "default"
+[I 200423 12:01:32 base:881] Added job "industry_status" to job store "default"
+[I 200423 12:01:32 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 12:01:32 base:881] Added job "patent" to job store "default"
+[I 200423 12:01:32 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 12:01:32 base:881] Added job "product_function" to job store "default"
+[I 200423 12:01:32 base:166] Scheduler started
+[D 200423 12:01:32 base:940] Looking for jobs to run
+[I 200423 12:01:32 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 12:01:32 base:1020] Next wakeup is due at 2020-04-23 12:02:00+08:00 (in 27.250067 seconds)
+[D 200423 12:02:00 base:940] Looking for jobs to run
+[I 200423 12:02:00 base:123] Running job "creative_marketing (trigger: cron[month='*', day='*', day_of_week='*', hour='12', minute='2', second='0'], next run at: 2020-04-24 12:02:00 CST)" (scheduled at 2020-04-23 12:02:00+08:00)
+[D 200423 12:02:00 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 8069.998508 seconds)
+[I 200423 12:02:00 utils:19] 开始查询数据
+[I 200423 12:02:00 get_data:49] dev
+[I 200423 12:02:00 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 12:02:00 get_data:51] test_yyh
+[I 200423 12:02:02 utils:37] download cost time: 0:00:02.490143
+[I 200423 12:02:02 utils:52] get annual report count: 10
+[I 200423 12:02:02 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:02 utils:68] 摘要 or 已取消, continue
+[I 200423 12:02:02 utils:68] 摘要 or 已取消, continue
+[I 200423 12:02:04 utils:37] download cost time: 0:00:01.384079
+[I 200423 12:02:04 utils:52] get annual report count: 10
+[I 200423 12:02:06 utils:37] download cost time: 0:00:01.458083
+[I 200423 12:02:06 utils:52] get annual report count: 10
+[I 200423 12:02:06 utils:79] cannot get induhc2: sz200706
+[I 200423 12:02:08 utils:37] download cost time: 0:00:01.626093
+[I 200423 12:02:08 utils:52] get annual report count: 10
+[I 200423 12:02:09 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:11 utils:37] download cost time: 0:00:02.085119
+[I 200423 12:02:11 utils:52] get annual report count: 10
+[I 200423 12:02:11 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:11 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:14 utils:37] download cost time: 0:00:01.966113
+[I 200423 12:02:14 utils:52] get annual report count: 10
+[I 200423 12:02:16 utils:37] download cost time: 0:00:01.978113
+[I 200423 12:02:16 utils:52] get annual report count: 10
+[I 200423 12:02:17 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:17 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:21 utils:37] download cost time: 0:00:03.959227
+[I 200423 12:02:21 utils:52] get annual report count: 10
+[I 200423 12:02:22 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:24 utils:37] download cost time: 0:00:02.004114
+[I 200423 12:02:24 utils:52] get annual report count: 10
+[I 200423 12:02:26 utils:37] download cost time: 0:00:01.670095
+[I 200423 12:02:26 utils:52] get annual report count: 10
+[I 200423 12:02:27 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:27 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:29 utils:37] download cost time: 0:00:01.759100
+[I 200423 12:02:29 utils:52] get annual report count: 10
+[I 200423 12:02:29 utils:79] cannot get induhc2: sh600680
+[I 200423 12:02:30 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:32 utils:37] download cost time: 0:00:01.776102
+[I 200423 12:02:32 utils:52] get annual report count: 10
+[I 200423 12:02:32 utils:79] cannot get induhc2: sz002070
+[I 200423 12:02:34 utils:37] download cost time: 0:00:02.064118
+[I 200423 12:02:34 utils:52] get annual report count: 10
+[I 200423 12:02:35 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:37 utils:37] download cost time: 0:00:02.091120
+[I 200423 12:02:37 utils:52] get annual report count: 10
+[I 200423 12:02:38 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:40 utils:37] download cost time: 0:00:02.018115
+[I 200423 12:02:40 utils:52] get annual report count: 10
+[I 200423 12:02:42 utils:37] download cost time: 0:00:02.146123
+[I 200423 12:02:42 utils:52] get annual report count: 10
+[I 200423 12:02:45 utils:37] download cost time: 0:00:02.225127
+[I 200423 12:02:45 utils:52] get annual report count: 10
+[I 200423 12:02:45 utils:68] 摘要 or 已取消, continue
+[I 200423 12:02:48 utils:37] download cost time: 0:00:02.108121
+[I 200423 12:02:48 utils:52] get annual report count: 10
+[I 200423 12:02:48 utils:106] save text true 1, save candidate code 0
+[I 200423 12:02:52 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 12:02:52 base:881] Added job "tax_free" to job store "default"
+[I 200423 12:02:52 base:881] Added job "vat" to job store "default"
+[I 200423 12:02:52 base:881] Added job "bank_branch" to job store "default"
+[I 200423 12:02:52 base:881] Added job "security_branch" to job store "default"
+[I 200423 12:02:52 base:881] Added job "copyright" to job store "default"
+[I 200423 12:02:52 base:881] Added job "innovate" to job store "default"
+[I 200423 12:02:52 base:881] Added job "main_channel" to job store "default"
+[I 200423 12:02:52 base:881] Added job "main_production" to job store "default"
+[I 200423 12:02:52 base:881] Added job "market_hold" to job store "default"
+[I 200423 12:02:52 base:881] Added job "market_scale" to job store "default"
+[I 200423 12:02:52 base:881] Added job "property_scale" to job store "default"
+[I 200423 12:02:52 base:881] Added job "rank" to job store "default"
+[I 200423 12:02:52 base:881] Added job "sale_mode" to job store "default"
+[I 200423 12:02:52 base:881] Added job "trust" to job store "default"
+[I 200423 12:02:52 base:881] Added job "user_count" to job store "default"
+[I 200423 12:02:52 base:881] Added job "engineering" to job store "default"
+[I 200423 12:02:52 base:881] Added job "insurance" to job store "default"
+[I 200423 12:02:52 base:881] Added job "media" to job store "default"
+[I 200423 12:02:52 base:881] Added job "real_property" to job store "default"
+[I 200423 12:02:52 base:881] Added job "user_foundation" to job store "default"
+[I 200423 12:02:52 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 12:02:52 base:881] Added job "market_rank" to job store "default"
+[I 200423 12:02:52 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 12:02:52 base:881] Added job "industry_position" to job store "default"
+[I 200423 12:02:52 base:881] Added job "industry_layout" to job store "default"
+[I 200423 12:02:52 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 12:02:52 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 12:02:52 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 12:02:52 base:881] Added job "technique_trend" to job store "default"
+[I 200423 12:02:52 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 12:02:52 base:881] Added job "capacity" to job store "default"
+[I 200423 12:02:52 base:881] Added job "rd_plan" to job store "default"
+[I 200423 12:02:52 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 12:02:52 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 12:02:52 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 12:02:52 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 12:02:52 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 12:02:52 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 12:02:52 base:881] Added job "business_reputation" to job store "default"
+[I 200423 12:02:52 base:881] Added job "sales_network" to job store "default"
+[I 200423 12:02:52 base:881] Added job "industry_status" to job store "default"
+[I 200423 12:02:52 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 12:02:52 base:881] Added job "patent" to job store "default"
+[I 200423 12:02:52 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 12:02:52 base:881] Added job "product_function" to job store "default"
+[I 200423 12:02:52 base:166] Scheduler started
+[D 200423 12:02:52 base:940] Looking for jobs to run
+[I 200423 12:02:52 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 12:02:52 base:1020] Next wakeup is due at 2020-04-23 12:03:10+08:00 (in 17.414501 seconds)
+[D 200423 12:03:10 base:940] Looking for jobs to run
+[I 200423 12:03:10 base:123] Running job "patent (trigger: cron[month='*', day='*', day_of_week='*', hour='12', minute='3', second='10'], next run at: 2020-04-24 12:03:10 CST)" (scheduled at 2020-04-23 12:03:10+08:00)
+[D 200423 12:03:10 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 7999.993504 seconds)
+[I 200423 12:03:10 utils:19] 开始查询数据
+[I 200423 12:03:10 get_data:49] dev
+[I 200423 12:03:10 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 12:03:10 get_data:51] test_yyh
+[I 200423 12:03:12 utils:37] download cost time: 0:00:02.723156
+[I 200423 12:03:12 utils:52] get annual report count: 10
+[I 200423 12:03:13 utils:112] save table true 1
+[I 200423 12:03:13 utils:68] 摘要 or 已取消, continue
+[I 200423 12:03:13 utils:112] save table true 1
+[I 200423 12:03:13 utils:68] 摘要 or 已取消, continue
+[I 200423 12:03:13 utils:112] save table true 1
+[I 200423 12:03:15 utils:37] download cost time: 0:00:01.507086
+[I 200423 12:03:15 utils:52] get annual report count: 10
+[I 200423 12:03:15 utils:112] save table true 1
+[I 200423 12:03:15 utils:112] save table true 1
+[I 200423 12:03:15 utils:112] save table true 1
+[I 200423 12:03:16 utils:112] save table true 1
+[I 200423 12:03:18 utils:37] download cost time: 0:00:01.817104
+[I 200423 12:03:18 utils:52] get annual report count: 10
+[I 200423 12:03:18 utils:112] save table true 1
+[I 200423 12:03:18 utils:112] save table true 1
+[I 200423 12:03:18 utils:112] save table true 1
+[I 200423 12:03:18 utils:79] cannot get induhc2: sz200706
+[I 200423 12:03:18 utils:112] save table true 1
+[I 200423 12:03:18 utils:112] save table true 1
+[I 200423 12:03:20 utils:37] download cost time: 0:00:01.854106
+[I 200423 12:03:20 utils:52] get annual report count: 10
+[I 200423 12:03:20 utils:112] save table true 1
+[I 200423 12:03:21 utils:112] save table true 1
+[I 200423 12:03:21 utils:112] save table true 1
+[I 200423 12:03:21 utils:112] save table true 1
+[I 200423 12:03:21 utils:112] save table true 1
+[I 200423 12:03:21 utils:112] save table true 1
+[I 200423 12:03:23 utils:37] download cost time: 0:00:02.127121
+[I 200423 12:03:23 utils:52] get annual report count: 10
+[I 200423 12:03:24 utils:112] save table true 1
+[I 200423 12:03:24 utils:112] save table true 1
+[I 200423 12:03:24 utils:112] save table true 1
+[I 200423 12:03:27 utils:37] download cost time: 0:00:02.001114
+[I 200423 12:03:27 utils:52] get annual report count: 10
+[I 200423 12:03:27 utils:112] save table true 1
+[I 200423 12:03:27 utils:112] save table true 1
+[I 200423 12:03:28 utils:112] save table true 1
+[I 200423 12:03:30 utils:37] download cost time: 0:00:02.745157
+[I 200423 12:03:30 utils:52] get annual report count: 10
+[I 200423 12:03:31 utils:112] save table true 1
+[I 200423 12:03:31 utils:112] save table true 1
+[I 200423 12:03:32 utils:112] save table true 1
+[I 200423 12:03:48 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 12:03:48 base:881] Added job "tax_free" to job store "default"
+[I 200423 12:03:48 base:881] Added job "vat" to job store "default"
+[I 200423 12:03:48 base:881] Added job "bank_branch" to job store "default"
+[I 200423 12:03:48 base:881] Added job "security_branch" to job store "default"
+[I 200423 12:03:48 base:881] Added job "copyright" to job store "default"
+[I 200423 12:03:48 base:881] Added job "innovate" to job store "default"
+[I 200423 12:03:48 base:881] Added job "main_channel" to job store "default"
+[I 200423 12:03:48 base:881] Added job "main_production" to job store "default"
+[I 200423 12:03:48 base:881] Added job "market_hold" to job store "default"
+[I 200423 12:03:48 base:881] Added job "market_scale" to job store "default"
+[I 200423 12:03:48 base:881] Added job "property_scale" to job store "default"
+[I 200423 12:03:48 base:881] Added job "rank" to job store "default"
+[I 200423 12:03:48 base:881] Added job "sale_mode" to job store "default"
+[I 200423 12:03:48 base:881] Added job "trust" to job store "default"
+[I 200423 12:03:48 base:881] Added job "user_count" to job store "default"
+[I 200423 12:03:48 base:881] Added job "engineering" to job store "default"
+[I 200423 12:03:48 base:881] Added job "insurance" to job store "default"
+[I 200423 12:03:48 base:881] Added job "media" to job store "default"
+[I 200423 12:03:48 base:881] Added job "real_property" to job store "default"
+[I 200423 12:03:48 base:881] Added job "user_foundation" to job store "default"
+[I 200423 12:03:48 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 12:03:48 base:881] Added job "market_rank" to job store "default"
+[I 200423 12:03:48 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 12:03:48 base:881] Added job "industry_position" to job store "default"
+[I 200423 12:03:48 base:881] Added job "industry_layout" to job store "default"
+[I 200423 12:03:48 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 12:03:48 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 12:03:48 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 12:03:48 base:881] Added job "technique_trend" to job store "default"
+[I 200423 12:03:48 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 12:03:48 base:881] Added job "capacity" to job store "default"
+[I 200423 12:03:48 base:881] Added job "rd_plan" to job store "default"
+[I 200423 12:03:48 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 12:03:48 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 12:03:48 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 12:03:48 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 12:03:48 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 12:03:48 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 12:03:48 base:881] Added job "business_reputation" to job store "default"
+[I 200423 12:03:48 base:881] Added job "sales_network" to job store "default"
+[I 200423 12:03:48 base:881] Added job "industry_status" to job store "default"
+[I 200423 12:03:48 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 12:03:48 base:881] Added job "patent" to job store "default"
+[I 200423 12:03:48 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 12:03:48 base:881] Added job "product_function" to job store "default"
+[I 200423 12:03:48 base:166] Scheduler started
+[D 200423 12:03:48 base:940] Looking for jobs to run
+[D 200423 12:03:48 base:1020] Next wakeup is due at 2020-04-23 12:04:15+08:00 (in 26.039276 seconds)
+[I 200423 12:03:48 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 12:04:15 base:940] Looking for jobs to run
+[I 200423 12:04:15 base:123] Running job "sale_mode_all (trigger: cron[month='*', day='*', day_of_week='*', hour='12', minute='4', second='15'], next run at: 2020-04-24 12:04:15 CST)" (scheduled at 2020-04-23 12:04:15+08:00)
+[D 200423 12:04:15 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 7934.986786 seconds)
+[I 200423 12:04:15 utils:19] 开始查询数据
+[I 200423 12:04:15 get_data:49] dev
+[I 200423 12:04:15 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 12:04:15 get_data:51] test_yyh
+[I 200423 12:04:17 utils:37] download cost time: 0:00:02.708155
+[I 200423 12:04:17 utils:52] get annual report count: 10
+[I 200423 12:04:17 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:18 utils:68] 摘要 or 已取消, continue
+[I 200423 12:04:18 utils:68] 摘要 or 已取消, continue
+[I 200423 12:04:18 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:20 utils:37] download cost time: 0:00:01.586091
+[I 200423 12:04:20 utils:52] get annual report count: 10
+[I 200423 12:04:20 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:22 utils:37] download cost time: 0:00:01.694097
+[I 200423 12:04:22 utils:52] get annual report count: 10
+[I 200423 12:04:22 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:22 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:22 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:23 utils:79] cannot get induhc2: sz200706
+[I 200423 12:04:23 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:26 utils:37] download cost time: 0:00:02.842162
+[I 200423 12:04:26 utils:52] get annual report count: 10
+[I 200423 12:04:26 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:26 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:26 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:27 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:29 utils:37] download cost time: 0:00:01.914109
+[I 200423 12:04:29 utils:52] get annual report count: 10
+[I 200423 12:04:29 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:29 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:31 utils:37] download cost time: 0:00:01.913109
+[I 200423 12:04:31 utils:52] get annual report count: 10
+[I 200423 12:04:32 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:32 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:34 utils:37] download cost time: 0:00:01.968113
+[I 200423 12:04:34 utils:52] get annual report count: 10
+[I 200423 12:04:34 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:34 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:39 utils:37] download cost time: 0:00:04.141237
+[I 200423 12:04:39 utils:52] get annual report count: 10
+[I 200423 12:04:39 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:39 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:40 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:40 utils:106] save text true 1, save candidate code 0
+[I 200423 12:04:40 utils:106] save text true 1, save candidate code 0
+[I 200423 12:05:05 workflow-annualreportextractsub-etl:715] Server Inititial ... 
+[I 200423 12:05:05 base:881] Added job "tax_free" to job store "default"
+[I 200423 12:05:05 base:881] Added job "vat" to job store "default"
+[I 200423 12:05:05 base:881] Added job "bank_branch" to job store "default"
+[I 200423 12:05:05 base:881] Added job "security_branch" to job store "default"
+[I 200423 12:05:05 base:881] Added job "copyright" to job store "default"
+[I 200423 12:05:05 base:881] Added job "innovate" to job store "default"
+[I 200423 12:05:05 base:881] Added job "main_channel" to job store "default"
+[I 200423 12:05:05 base:881] Added job "main_production" to job store "default"
+[I 200423 12:05:05 base:881] Added job "market_hold" to job store "default"
+[I 200423 12:05:05 base:881] Added job "market_scale" to job store "default"
+[I 200423 12:05:05 base:881] Added job "property_scale" to job store "default"
+[I 200423 12:05:05 base:881] Added job "rank" to job store "default"
+[I 200423 12:05:05 base:881] Added job "sale_mode" to job store "default"
+[I 200423 12:05:05 base:881] Added job "trust" to job store "default"
+[I 200423 12:05:05 base:881] Added job "user_count" to job store "default"
+[I 200423 12:05:05 base:881] Added job "engineering" to job store "default"
+[I 200423 12:05:05 base:881] Added job "insurance" to job store "default"
+[I 200423 12:05:05 base:881] Added job "media" to job store "default"
+[I 200423 12:05:05 base:881] Added job "real_property" to job store "default"
+[I 200423 12:05:05 base:881] Added job "user_foundation" to job store "default"
+[I 200423 12:05:05 base:881] Added job "competitive_edge" to job store "default"
+[I 200423 12:05:05 base:881] Added job "market_rank" to job store "default"
+[I 200423 12:05:05 base:881] Added job "develop_strategy" to job store "default"
+[I 200423 12:05:05 base:881] Added job "industry_position" to job store "default"
+[I 200423 12:05:05 base:881] Added job "industry_layout" to job store "default"
+[I 200423 12:05:05 base:881] Added job "company_industry_trend" to job store "default"
+[I 200423 12:05:05 base:881] Added job "market_hold_all" to job store "default"
+[I 200423 12:05:05 base:881] Added job "corporate_culture" to job store "default"
+[I 200423 12:05:05 base:881] Added job "technique_trend" to job store "default"
+[I 200423 12:05:05 base:881] Added job "market_hold_trend" to job store "default"
+[I 200423 12:05:05 base:881] Added job "capacity" to job store "default"
+[I 200423 12:05:05 base:881] Added job "rd_plan" to job store "default"
+[I 200423 12:05:05 base:881] Added job "capacity_plan" to job store "default"
+[I 200423 12:05:05 base:881] Added job "right_restrict_money" to job store "default"
+[I 200423 12:05:05 base:881] Added job "5customers_proportion" to job store "default"
+[I 200423 12:05:05 base:881] Added job "5supplyers_proportion" to job store "default"
+[I 200423 12:05:05 base:881] Added job "project_research_plan" to job store "default"
+[I 200423 12:05:05 base:881] Added job "capacity_extention_plan" to job store "default"
+[I 200423 12:05:05 base:881] Added job "business_reputation" to job store "default"
+[I 200423 12:05:05 base:881] Added job "sales_network" to job store "default"
+[I 200423 12:05:05 base:881] Added job "industry_status" to job store "default"
+[I 200423 12:05:05 base:881] Added job "creative_marketing" to job store "default"
+[I 200423 12:05:05 base:881] Added job "patent" to job store "default"
+[I 200423 12:05:05 base:881] Added job "sale_mode_all" to job store "default"
+[I 200423 12:05:05 base:881] Added job "product_function" to job store "default"
+[I 200423 12:05:05 base:166] Scheduler started
+[D 200423 12:05:05 base:940] Looking for jobs to run
+[I 200423 12:05:05 workflow-annualreportextractsub-etl:725] Server Inititial Success! 
+[D 200423 12:05:05 base:1020] Next wakeup is due at 2020-04-23 12:05:15+08:00 (in 9.041872 seconds)
+[D 200423 12:05:15 base:940] Looking for jobs to run
+[I 200423 12:05:15 base:123] Running job "product_function (trigger: cron[month='*', day='*', day_of_week='*', hour='12', minute='5', second='15'], next run at: 2020-04-23 12:05:15 CST)" (scheduled at 2020-04-23 12:05:15+08:00)
+[D 200423 12:05:15 base:1020] Next wakeup is due at 2020-04-23 14:16:30+08:00 (in 7874.999355 seconds)
+[I 200423 12:05:15 utils:19] 开始查询数据
+[I 200423 12:05:15 get_data:49] dev
+[I 200423 12:05:15 get_data:50] mongodb://test:test@10.0.0.173:27017/test_yyh
+[I 200423 12:05:15 get_data:51] test_yyh
+[I 200423 12:05:17 utils:37] download cost time: 0:00:02.364136
+[I 200423 12:05:17 utils:52] get annual report count: 10
+[I 200423 12:05:17 extract_product_function:60] none
+[I 200423 12:05:17 extract_product_function:60] none
+[I 200423 12:05:17 utils:68] 摘要 or 已取消, continue
+[I 200423 12:05:17 utils:68] 摘要 or 已取消, continue
+[I 200423 12:05:19 utils:37] download cost time: 0:00:01.470084
+[I 200423 12:05:19 utils:52] get annual report count: 10
+[I 200423 12:05:19 extract_product_function:60] none
+[I 200423 12:05:20 extract_product_function:60] none
+[I 200423 12:05:20 extract_product_function:60] none
+[I 200423 12:05:20 extract_product_function:60] none
+[I 200423 12:05:22 utils:37] download cost time: 0:00:01.620092
+[I 200423 12:05:22 utils:52] get annual report count: 10
+[I 200423 12:05:22 extract_product_function:60] none
+[I 200423 12:05:22 utils:79] cannot get induhc2: sz200706
+[I 200423 12:05:25 utils:37] download cost time: 0:00:02.179124
+[I 200423 12:05:25 utils:52] get annual report count: 10
+[I 200423 12:05:28 utils:37] download cost time: 0:00:02.206126
+[I 200423 12:05:28 utils:52] get annual report count: 10
+[I 200423 12:05:30 utils:37] download cost time: 0:00:02.248129
+[I 200423 12:05:30 utils:52] get annual report count: 10
+[I 200423 12:05:31 extract_product_function:60] none
+[I 200423 12:05:34 utils:37] download cost time: 0:00:03.295189
+[I 200423 12:05:34 utils:52] get annual report count: 10
+[I 200423 12:05:35 extract_product_function:60] none
+[I 200423 12:05:35 extract_product_function:60] none
+[I 200423 12:05:40 utils:37] download cost time: 0:00:04.670267
+[I 200423 12:05:40 utils:52] get annual report count: 10
+[I 200423 12:05:43 utils:37] download cost time: 0:00:02.235128
+[I 200423 12:05:43 utils:52] get annual report count: 10
+[I 200423 12:05:43 extract_product_function:60] none
+[I 200423 12:05:43 extract_product_function:60] none
+[I 200423 12:05:46 utils:37] download cost time: 0:00:02.231128
+[I 200423 12:05:46 utils:52] get annual report count: 10
+[I 200423 12:05:47 extract_product_function:60] none
+[I 200423 12:05:49 utils:37] download cost time: 0:00:02.396137
+[I 200423 12:05:49 utils:52] get annual report count: 10
+[I 200423 12:05:49 utils:79] cannot get induhc2: sh600680
+[I 200423 12:05:50 extract_product_function:60] none
+[I 200423 12:05:50 extract_product_function:60] none
+[I 200423 12:05:52 utils:37] download cost time: 0:00:02.330133
+[I 200423 12:05:52 utils:52] get annual report count: 10
+[I 200423 12:05:52 extract_product_function:60] none
+[I 200423 12:05:53 utils:79] cannot get induhc2: sz002070
+[I 200423 12:05:55 utils:37] download cost time: 0:00:02.547145
+[I 200423 12:05:55 utils:52] get annual report count: 10
+[I 200423 12:05:56 extract_product_function:60] none
+[I 200423 12:05:58 utils:37] download cost time: 0:00:02.075119
+[I 200423 12:05:58 utils:52] get annual report count: 10
+[I 200423 12:05:58 extract_product_function:60] none
+[I 200423 12:06:01 utils:37] download cost time: 0:00:02.169124
+[I 200423 12:06:01 utils:52] get annual report count: 10
